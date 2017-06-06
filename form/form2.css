@@ -1,0 +1,41 @@
+body { font-family:Verdana,Geneva,Arial,sans-serif; margin-left:10px; margin-top:10px; letter-spacing:0.01cm; }
+
+h1       { font-family:Times,serif; font-size:32px; font-weight:normal; margin-left:20px; color:#000000; letter-spacing:0.01cm; }
+h2  { font-family:Times,serif; font-size:32px; font-weight:normal; margin-top:20px; color:#000000; letter-spacing:0.01cm; }
+
+.ez20   { margin-left:20px;  }
+.ez80   { margin-left:80px;  }
+
+.rot    { color:#6B0000; }
+.hell   { color:#999999; }
+.shell  { color:#CCCCCC; }
+.sshell { color:#DEDEDE; }
+.srot   { color:#FF0000; }
+.weiss  { color:#FFFFFF; }
+.norm11  { font-size:11px; color: #000000; letter-spacing:0.01cm; }
+.norm11g { font-size:11px; color: #999999; letter-spacing:0.01cm; }
+.norm11r { font-size:11px; color: #6B0000; letter-spacing:0.01cm; }
+.grau9   { color: #CCCCCC; font-size: 9px; letter-spacing:0.01cm; }
+
+.form1   { color: #000000; border-left: #999999 1px dotted; border-right: #999999 1px dotted; border-top: #999999 1px dotted; border-bottom: #999999 1px dotted; background-color:#ffffff; font-size: 11px; font-family:Verdana; letter-spacing:0.01cm; }
+
+.form2   { color: #000000; border: #ffffff; background-color:#ffffff; font-family:Times,serif; font-size:32px; font-weight:normal; color: #000000; letter-spacing:0.01cm; }
+
+a          { letter-spacing:0.02cm; }
+
+a:link { color:#666666; text-decoration:none; }
+a:visited {color:#666666; text-decoration:none; }
+a:hover {color:#0000FF; text-decoration:none; }
+a:active {color:#FF0000; text-decoration:none; }
+
+a.vok:link { color:#000000; background-color:#DEDEDE; text-decoration:none }
+a.vok:visited {color:#000000; background-color:#DEDEDE; text-decoration:none }
+a.vok:hover {color:#666666; background-color:#EFEFEF; text-decoration:none }
+a.vok:active {color:#FF0000; background-color:#CCCCCC; text-decoration:none }
+
+a.rot:link { color:#FF0000; text-decoration:none; }
+a.rot:visited { color:#FF6363; text-decoration:none;  }
+a.rot:hover { color:#0000FF; text-decoration:none; }
+a.rot:active { color:#FF0000; text-decoration:none; }
+
+/* copyright markus steiger 20.11.2001 */

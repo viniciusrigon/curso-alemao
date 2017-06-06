@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00408</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form1.answer2.value
+var result3=document.form1.answer3.value
+var result4=document.form1.answer4.value
+var result5=document.form1.answer5.value
+var result6=document.form1.answer6.value
+var result7=document.form1.answer7.value
+var result8=document.form1.answer8.value
+var result9=document.form1.answer9.value
+var result10=document.form1.answer10.value
+    
+if (result1==''){ alert("a) ?");}
+if (result2==''){ alert("a) ?");}
+if (result3==''){ alert("b) ?");}
+if (result4==''){ alert("b) ?");}
+if (result5==''){ alert("c) ?");}
+if (result6==''){ alert("c) ?");}
+if (result7==''){ alert("d) ?");}
+if (result8==''){ alert("d) ?");}
+if (result9==''){ alert("e) ?");}
+if (result10==''){ alert("f) ?");}
+
+
+else {
+	if (result1=='Es'){i++}
+ if (result2=='er'){i++}
+ if (result3=='Wir'){i++}
+ if (result4=='Sie'){i++}	
+ if (result5=='es'){i++}	
+ if (result6=='er'){i++}	
+ if (result7=='ihr'){i++}	
+ if (result8=='Sie'){i++}	
+ if (result9=='er'){i++}	
+ if (result10=='es'){i++}	
+				
+	document.total.score.value = i
+
+if (result1=='Es') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='er') document.form1.check2.checked = "yes"; else document.form1.check2.checked = false;
+if (result3=='Wir') document.form1.check3.checked = "yes"; else document.form1.check3.checked = false;
+if (result4=='Sie') document.form1.check4.checked = "yes"; else document.form1.check4.checked = false;
+if (result5=='es') document.form1.check5.checked = "yes"; else document.form1.check5.checked = false;
+if (result6=='er') document.form1.check6.checked = "yes"; else document.form1.check6.checked = false;
+if (result7=='ihr') document.form1.check7.checked = "yes"; else document.form1.check7.checked = false;
+if (result8=='Sie') document.form1.check8.checked = "yes"; else document.form1.check8.checked = false;
+if (result9=='er') document.form1.check9.checked = "yes"; else document.form1.check9.checked = false;
+if (result10=='es') document.form1.check10.checked = "yes"; else document.form1.check10.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00408</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR>
+<TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Schreiben Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="kleinh"></SPAN> &nbsp; <SPAN class="titel">Personalpronomen</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<form name="form1">
+
+a) &nbsp; Wo liegt das Buch? - <INPUT TYPE="text" name="answer1" VALUE="Es" SIZE="4"> liegt hier. <input type="checkbox" name="check1"><BR><BR>
+b) &nbsp; Liegt der Bleistift auch hier? - Nein, <INPUT TYPE="text" name="answer2" SIZE="4"> liegt nicht hier. <input type="checkbox" name="check2"><BR><BR>
+c) &nbsp; Jack und Mary sagen: "<INPUT TYPE="text" name="answer3" SIZE="4"> lernen Deutsch." <input type="checkbox" name="check3"><BR><BR>
+d) &nbsp; Kommt Frau Huber? Nein, <INPUT TYPE="text" name="answer4" SIZE="4"> kommt nicht? <input type="checkbox" name="check4"><BR><BR>
+e) &nbsp; Lernt das Kind fleissig? Ja, <INPUT TYPE="text" name="answer5" SIZE="4"> lernt fleissig. <input type="checkbox" name="check5"><BR><BR>
+f) &nbsp; Antwortet Richard richtig? Ja, <INPUT TYPE="text" name="answer6" SIZE="4"> antwortet richtig? <input type="checkbox" name="check6"><BR><BR>
+g) &nbsp; Herr Gruber fragt Karl und Otto: "Geht <INPUT TYPE="text" name="answer7" SIZE="4"> in die Schule?" <input type="checkbox" name="check7"><BR><BR>
+h) &nbsp; Wo ist die Landkarte? <INPUT TYPE="text" name="answer8" SIZE="4"> liegt dort. <input type="checkbox" name="check8"><BR><BR>
+i) &nbsp; Wo ist Herr Schulz? Dort kommt <INPUT TYPE="text" name="answer9" SIZE="4">. <input type="checkbox" name="check9"><BR><BR>
+j) &nbsp; Ist mein Auto hier? Ja, <INPUT TYPE="text" name="answer10" SIZE="4"> ist hier. <input type="checkbox" name="check10">
+
+</form></TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="432217.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

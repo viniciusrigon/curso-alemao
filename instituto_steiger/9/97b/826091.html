@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00763</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "zehn";
+ans[2] = "nach";
+ans[3] = "vier";
+ans[4] = "zwanzig";
+ans[5] = "nach";
+ans[6] = "sieben";
+ans[7] = "fuenf";
+ans[8] = "vor";
+ans[9] = "sechs";
+ans[10] = "halb";
+ans[11] = "zehn";
+ans[12] = "Viertel";
+ans[13] = "nach";
+ans[14] = "eins";
+
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 14) {
+alert("!");
+}
+if (score >= 11 && score <= 14) {
+alert("Gut! Jetzt kommt Teil II!")
+self.location="826213.html"
+
+}
+else {
+alert("Sie muessen 11 Fragen richtig beantworten um weiterzufahren.")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00763</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. <B>Wie sp&auml;t ist es?</B> Benutzen Sie die Tabulatortaste um zum n&auml;chsten Feld zu gelangen. Mit 11 von 14 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="30" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">Beispiel: Es ist <SPAN class="kleinr">Viertel vor fuenf</SPAN><BR><BR>
+<IMG SRC="..\9fig\f2393.gif" ALT="Uhren [2kB]" WIDTH="336" HEIGHT="102" BORDER="0">
+<BR><BR>
+<FORM>
+
+<B>A</B> &nbsp; &nbsp; Es ist &nbsp; 
+<input type=text  size=8 value="" onChange="Engine(1, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(2, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(3, this.value)"> .<BR><BR>
+
+<B>B</B> &nbsp; &nbsp; Es ist &nbsp;
+<input type=text  size=8 value="" onChange="Engine(4, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(5, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(6, this.value)"> .<BR><BR>
+
+<B>C</B> &nbsp; &nbsp; Es ist &nbsp;
+<input type=text  size=8 value="" onChange="Engine(7, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(8, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(9, this.value)"> .<BR><BR>
+
+<B>D</B> &nbsp; &nbsp; Es ist &nbsp; 
+<input type=text  size=8 value="" onChange="Engine(10, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(11, this.value)"> .<BR><BR> 
+
+<B>E</B> &nbsp; &nbsp; Es ist &nbsp;
+<input type=text  size=8 value="" onChange="Engine(12, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(13, this.value)"> 
+<input type=text  size=8 value="" onChange="Engine(14, this.value)"> .
+
+
+
+</FORM></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

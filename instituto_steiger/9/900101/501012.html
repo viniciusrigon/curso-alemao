@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00741</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso2.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form2.answer2.value
+var result3=document.form3.answer3.value
+var result4=document.form4.answer4.value
+var result5=document.form5.answer5.value
+var result6=document.form6.answer6.value
+    
+if (result1==''){ alert("ich ... ?");}
+if (result2==''){ alert("du ... ?");}
+if (result3==''){ alert("er, sie, es ... ?");}
+if (result4==''){ alert("wir ... ?");}
+if (result5==''){ alert("ihr ... ?");}
+if (result6==''){ alert("sie, Sie ... ?");}
+
+else {
+	if (result1=='bestelle'){i++}
+ if (result2=='bestellst'){i++}
+ if (result3=='bestellt'){i++}
+ if (result4=='bestellen'){i++}	
+ if (result5=='bestellt'){i++}	
+ if (result6=='bestellen'){i++}	
+				
+	document.total.score.value = i
+
+if (result1=='bestelle') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='bestellst') document.form2.check2.checked = "yes"; else document.form2.check2.checked = false;
+if (result3=='bestellt') document.form3.check3.checked = "yes"; else document.form3.check3.checked = false;
+if (result4=='bestellen') document.form4.check4.checked = "yes"; else document.form4.check4.checked = false;
+if (result5=='bestellt') document.form5.check5.checked = "yes"; else document.form5.check5.checked = false;
+if (result6=='bestellen') document.form6.check6.checked = "yes"; else document.form6.check6.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+
+
+</HEAD>
+
+<BODY>
+
+<!-- navbar --><TABLE class="norm11" WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE">id: 00741</TD><TD BGCOLOR="#000000" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="weiss">&Uuml;bung</SPAN></TD><TD BGCOLOR="#CCCCCC" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE">Verben</TD><TD ALIGN="RIGHT" VALIGN="MIDDLE"><A HREF="javascript:history.back();" title="voltar">| zur&uuml;ck |</A></TD></TR></TABLE><!-- navbar end -->
+
+<!-- titel --><TABLE class="norm11r" WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0">
+<TR><TD WIDTH="240" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD><TD ROWSPAN="2" ALIGN="RIGHT" VALIGN="BOTTOM"><H2>bestellen</H2></TD></TR><TR><TD WIDTH="240" ALIGN="LEFT" VALIGN="MIDDLE">1. Konjugieren Sie!</TD></TR></TABLE><!-- titel end -->
+
+<TABLE class="norm12" WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="10" BORDER="0"><TR>
+
+<TD WIDTH="48%" ALIGN="RIGHT" VALIGN="TOP">&nbsp;<BR><form name="form1">ich &nbsp;&nbsp;<INPUT TYPE="text" name="answer1" VALUE="" SIZE="15" TABINDEX="1"><input type="checkbox" name="check1"></form><form name="form2">du &nbsp;&nbsp;<INPUT TYPE="text" name="answer2" VALUE="" SIZE="15" TABINDEX="2"><input type="checkbox" name="check2"></form><form name="form3">er (sie, es)&nbsp;&nbsp;<INPUT TYPE="text" name="answer3" VALUE="" SIZE="15" TABINDEX="3"><input type="checkbox" name="check3"></form><BR>&nbsp;</TD>
+
+<TD WIDTH="48%" ALIGN="RIGHT" VALIGN="TOP">&nbsp;<BR><form name="form4">wir&nbsp;&nbsp;<INPUT TYPE="text" name="answer4" VALUE="" SIZE="15" TABINDEX="4"><input type="checkbox" name="check4"></form><form name="form5">ihr&nbsp;&nbsp;<INPUT TYPE="text" name="answer5" VALUE="" SIZE="15" TABINDEX="5"><input type="checkbox" name="check5"></form><form name="form6">sie (Sie)&nbsp;&nbsp;<INPUT TYPE="text" name="answer6" VALUE="" SIZE="15" TABINDEX="6"><input type="checkbox" name="check6"></form><BR>&nbsp;</TD><TD WIDTH="6%">&nbsp;</TD>
+
+</TR></TABLE>
+
+<form name="total"><TABLE class="norm11g" WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="norm11r">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()">&nbsp; &nbsp;<input type="text" size="2" name="score"> richtig</TD><TD HEIGHT="30" ALIGN="RIGHT" VALIGN="MIDDLE"><A HREF="javascript:location.reload()" title="Repetir Exerc&iacute;cio">| noch einmal </A><A HREF="509012.html" title="Solu&ccedil;&atilde;o">| L&ouml;sung |</A></TD></TR></TABLE></form>
+
+<!-- footer -->&nbsp;<P><SPAN class="grau9"><A HREF="../..\index.html" TITLE="Home">| Instituto Steiger |</A> &nbsp; &nbsp; &copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><P>&nbsp;<!-- footer end -->
+
+</BODY>
+</HTML>
+
+

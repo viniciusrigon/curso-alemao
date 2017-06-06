@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00174</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.selectedIndex
+var result2=document.form2.answer2.selectedIndex
+var result3=document.form3.answer3.selectedIndex
+var result4=document.form4.answer4.selectedIndex
+var result5=document.form5.answer5.selectedIndex
+var result6=document.form6.answer6.selectedIndex
+var result7=document.form7.answer7.selectedIndex
+var result8=document.form8.answer8.selectedIndex
+    
+if (result1==0){ alert("1. ?");}
+if (result2==0){ alert("2. ?");}
+if (result3==0){ alert("3. ?");}
+if (result4==0){ alert("4. ?");}
+if (result5==0){ alert("5. ?");}
+if (result6==0){ alert("6. ?");}
+if (result7==0){ alert("7. ?");}
+if (result8==0){ alert("8. ?");}
+
+else {
+	if (result1==3){i++}
+ if (result2==3){i++}
+ if (result3==4){i++}
+ if (result4==2){i++}
+ if (result5==4){i++}	
+ if (result6==1){i++}	
+ if (result7==3){i++}	
+ if (result8==3){i++}		
+				
+	document.total.score.value = i
+
+if (result1==3) document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2==3) document.form2.check2.checked = "yes"; else document.form2.check2.checked = false;
+if (result3==4) document.form3.check3.checked = "yes"; else document.form3.check3.checked = false;
+if (result4==2) document.form4.check4.checked = "yes"; else document.form4.check4.checked = false;
+if (result5==4) document.form5.check5.checked = "yes"; else document.form5.check5.checked = false;
+if (result6==1) document.form6.check6.checked = "yes"; else document.form6.check6.checked = false;
+if (result7==3) document.form7.check7.checked = "yes"; else document.form7.check7.checked = false;
+if (result8==3) document.form8.check8.checked = "yes"; else document.form8.check8.checked = false;
+							
+	}
+}
+//-->
+</script>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00174</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. W&auml;hlen Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Artikel im Akkusativ</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+<TR><TD WIDTH="40" ALIGN="LEFT" VALIGN="TOP"></TD>
+<TD WIDTH="540" COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><BR><SPAN class="gross">Wir machen eine Besprechung. <B>Wir brauchen ...</B><BR><BR></TD></TR>
+
+<TR><TD WIDTH="40" ALIGN="LEFT" VALIGN="TOP">&nbsp;</TD>
+
+<TD WIDTH="270" ALIGN="LEFT" VALIGN="TOP">
+<form name="form1">1. <SPAN class="gross"><select name="answer1" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">die</option>
+<option value="2">einen</option>
+<option value="3">ein</option>
+<option value="4">eine</option>
+<option value="5"> - </option>
+</select>&nbsp;Zimmer - <input type="checkbox" name="check1"></SPAN></form>
+
+<form name="form2">2. <SPAN class="gross"><select name="answer2" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">ein</option>
+<option value="2">der</option>
+<option value="3">einen</option>
+<option value="4"> - </option>
+</select>&nbsp;Tisch - <input type="checkbox" name="check2"></SPAN></form>
+
+<form name="form3">3. <SPAN class="gross"><select name="answer3" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">eine</option>
+<option value="2">ein</option>
+<option value="3">das</option>
+<option value="4"> - </option>
+</select>&nbsp;St&uuml;hle - <input type="checkbox" name="check3"></SPAN></form>
+
+<form name="form4">4. <SPAN class="gross"><select name="answer4" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">der</option>
+<option value="2">den</option>
+<option value="3">ein</option>
+<option value="4"> - </option>
+</select>&nbsp;Vertrag - <input type="checkbox" name="check4"></SPAN></form>
+
+</TD>
+
+<TD WIDTH="270" ALIGN="LEFT" VALIGN="TOP">
+<form name="form5">5. <SPAN class="gross"><select name="answer5" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">das</option>
+<option value="2">ein</option>
+<option value="3">eine</option>
+<option value="4">einen</option>
+<option value="5"> - </option>
+</select>&nbsp;Taschenrechner - <input type="checkbox" name="check5"></SPAN></form>
+
+<form name="form6">6. <SPAN class="gross"><select name="answer6" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">ein</option>
+<option value="2">den</option>
+<option value="3">die</option>
+<option value="4"> - </option>
+</select>&nbsp;Telefon - <input type="checkbox" name="check6"></SPAN></form>
+
+<form name="form7">7. <SPAN class="gross"><select name="answer7" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">der</option>
+<option value="2">ein</option>
+<option value="3">eine</option>
+<option value="4"> - </option>
+</select>&nbsp;Uhr - <input type="checkbox" name="check7"></SPAN></form>
+
+<form name="form8">8. <SPAN class="gross"><select name="answer8" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">kein</option>
+<option value="2">keine</option>
+<option value="3">keinen</option>
+<option value="4"> - </option>
+</select>&nbsp;&Auml;rger - <input type="checkbox" name="check8"></SPAN><BR><BR></form>
+
+</TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="568941.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00415</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "st";
+ans[2] = "du";
+ans[3] = "en";
+ans[4] = "Sie";
+ans[5] = "t";
+ans[6] = "ihr";
+ans[7] = "Ich";
+ans[8] = "e";
+ans[9] = "Wir";
+ans[10] = "en";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch! - Errado!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig! - Certo!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 10) {
+alert("!");
+}
+if (score >= 8 && score <= 10) {
+alert("Gut! Jetzt kommt Teil II!\nBom! Agora vem a parte II.")
+self.location="510231.html"
+
+}
+else {
+alert("Sie muessen 8 Fragen richtig beantworten um weiterzufahren.\nPrecisa de 8 respostas certas para continuar!")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00415</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Erg&auml;nzen Sie die <B>Pronomen</B> und <B>Endungen der Verben</B>! Benutzen Sie die Tabulatortaste um zum n&auml;chsten Feld zu gelangen. Mit 8 von 10 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD WIDTH="100%" ALIGN="LEFT" VALIGN="TOP">
+
+<FORM><SPAN class="gross">
+
+a) &nbsp; Otto ist mein Freund. Ich frage Otto: "Geh<input type=text size=2 value="" onChange="Engine(1, this.value)"> &nbsp;<input type=text size=4 value="" onChange="Engine(2, this.value)"> in die Schule?"<BR><BR>
+
+b) &nbsp; Frau Blume fragt: "Arbeit<input type=text size=2 value="" onChange="Engine(3, this.value)">  &nbsp;<input type=text size=4 value="" onChange="Engine(4, this.value)"> in K&ouml;ln, Herr Gruber?"<BR><BR>
+
+c) &nbsp; Frau Dorn fragt Mario und Marcello: "Komm<input type=text size=2 value="" onChange="Engine(5, this.value)">  &nbsp;<input type=text size=4 value="" onChange="Engine(6, this.value)"> aus Italien?"<BR><BR>
+
+d) &nbsp; Jenny ist Engl&auml;nderin. Sie sagt: "<input type=text size=4 value="" onChange="Engine(7, this.value)">  &nbsp;komm<input type=text size=2 value="" onChange="Engine(8, this.value)"> aus England."<BR><BR>
+
+e) &nbsp; Carlos und Maria sagen: "<input type=text size=4 value="" onChange="Engine(9, this.value)">  &nbsp;lern<input type=text size=4 value="" onChange="Engine(10, this.value)"> Deutsch."
+
+</FORM></SPAN></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

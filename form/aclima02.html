@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>Guia Aclima&ccedil;&atilde;o: Cadastrar</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\aclimacao\acli.css" rel="stylesheet" type="text/css"><LINK REL="home" HREF="..\aclimacao\index.html">
+
+<script language="JavaScript">
+<!--
+function chkFormular()
+{
+if(document.Formular.nomefant.value == "")
+ {
+  alert("Dados para o campo NOME FANTASIA?");
+  document.Formular.nomefant.focus();
+  return false;
+  }
+ if(document.Formular.address.value == "")
+  {
+  alert("Dados para o campo ENDERECO?");
+  document.Formular.address.focus();
+  return false;
+  }
+ if(document.Formular.zip.value == "")
+  {
+  alert("Dados para o campo CEP?");
+  document.Formular.zip.focus();
+  return false;
+  }
+ if(document.Formular.namec.value == "")
+  {
+  alert("Dados para o campo NOME DA PESSOA PARA CONTATO?");
+  document.Formular.namec.focus();
+  return false;
+  }
+ if(document.Formular.emailc.value == "")
+  {
+  alert("Dados para o campo E-MAIL DA PESSOA PARA CONTATO?");
+  document.Formular.emailc.focus();
+  return false;
+  }
+if(document.Formular.emailc.value.indexOf('@') == -1)
+ {
+  alert("Dados do campo E-MAIL DA PESSOA PARA CONTATO incorretas!");
+  document.Formular.emailc.focus();
+  return false;
+ }
+}
+//-->
+</script>
+
+
+</HEAD><BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<!-- homebar --><TABLE class="norm11" WIDTH="400" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+<TR><TD ALIGN="RIGHT"><A NAME="kopf"><IMG SRC="..\aclimacao\02fig\logo-guia-6.gif" ALT="Logo Guia Aclimacao [2kB]" WIDTH="258" HEIGHT="54" BORDER="0"></A></TD></TR>
+<TR><TR><TD HEIGHT="24" BGCOLOR="#EFEFEF" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="grau9"><A HREF="..\aclimacao\0203151.html" class="grau">Termo de compromisso</A> | <A HREF="javascript:window.close();" title="Fechar Janela" class="grau">Fechar Janela</A>&nbsp; &nbsp;</SPAN></TD></TR><TR><TD ALIGN="LEFT"><BR><H1>Cadastrar</H1>Este servi&ccedil;o &eacute; totalmente gr&aacute;tis.<BR><SPAN class="hell">Os campos marcados com <SPAN class="rot">*</SPAN> s&atilde;o obrigat&oacute;rios.</TD></TR></TABLE>
+
+<!-- form -->
+<form name="Formular" method=POST ACTION="..\cgi-bin\aclima02.cgi" onSubmit="return chkFormular()"><INPUT TYPE=hidden name="subject" value="Cadastramento">
+
+<TABLE class="norm11" BGCOLOR="#FFFFFF" BORDER="0" WIDTH="400" CELLSPACING="1" CELLPADDING="10">
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="TOP"><B>Nome Fantasia</B> <SPAN class="rot">*</SPAN><P>
+<INPUT TYPE="text" class="form1" size="24" name="nomefant"><P>
+<SPAN class="hell">Importante: max. 24 caracteres.<BR>Este campo &eacute; usado na procura pelo nome</SPAN></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="TOP"><B>Raz&atilde;o Social / Nome completo</B><P><INPUT TYPE="text" class="form1" size="45" name="razao"></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="TOP"><B>Endere&ccedil;o</B> <SPAN class="rot">*</SPAN>
+<SPAN class="hell">(Rua, Conjunto, Ap. etc.)</SPAN><P>
+<INPUT TYPE="text" class="form1" size="45" name="address"><P>
+<SPAN class="hell">Bairro &nbsp;<INPUT TYPE="text" class="form1" size="12" value="Aclima&ccedil;&atilde;o" name="bairro">
+&nbsp; &nbsp; &nbsp; Cidade &nbsp;<INPUT TYPE="text" class="form1" size="10" value="S&atilde;o Paulo" name="city"></SPAN></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="MIDDLE"><B>CEP</B> <SPAN class="rot">*</SPAN> &nbsp;<INPUT TYPE="text" class="form1" size="9" name="zip"> <SPAN class="hell">(00000-000)</SPAN></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="MIDDLE"><B>Telefone</B> &nbsp; <SPAN class="hell">(1)&nbsp;<INPUT TYPE="text" class="form1" size="14" name="tel1"> (2)&nbsp;<INPUT TYPE="text" class="form1" size="14" name="tel2"></SPAN></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="MIDDLE"><B>Fax</B> &nbsp; <INPUT TYPE="text" class="form1" size="15" name="fax"></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="MIDDLE"><B>E-mail</B> &nbsp; <INPUT TYPE="text" class="form1" size="30" name="email"></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="MIDDLE"><B>Site</B> &nbsp; <INPUT TYPE="text" class="form1" size="40" value="http://www." name="url"></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="TOP"><B>Setor</B> <SPAN class="rot">*</SPAN><P>
+<DIV class="ez50"><INPUT TYPE="CHECKBOX" name="serv" value="SIM"> Servi&ccedil;o &nbsp; &nbsp;
+<INPUT TYPE="CHECKBOX" name="com" value="SIM"> Com&eacute;rcio<BR>
+<INPUT TYPE="CHECKBOX" name="ind" value="SIM"> Ind&uacute;stria &nbsp; &nbsp;
+<INPUT TYPE="CHECKBOX" name="ass" value="SIM"> Entidades/Associa&ccedil;&otilde;es</DIV></TD></TR>
+
+<TR BGCOLOR="#EFEFEF"><TD ALIGN="LEFT" VALIGN="TOP"><B>Descri&ccedil;&atilde;o</B><P><TEXTAREA NAME="descr" class="form1" ROWS="6" Cols="40"></TEXTAREA><P><SPAN class="hell">Principais produtos, servi&ccedil;os, especialidades, hor&aacute;rio etc.<BR>max. 30 palavras</SPAN></TD></TR>
+
+<TR BGCOLOR="#DEDEDE"><TD ALIGN="LEFT" VALIGN="TOP"><B>Contato</B> <SPAN class="rot">*</SPAN> <SPAN class="hell">(Dados n&atilde;o publicados)</SPAN><P>
+<INPUT TYPE="text" class="form1" size="30" name="namec"> Nome da Pessoa<BR>
+<INPUT TYPE="text" class="form1" size="30" name="emailc"> E-Mail</TD></TR>
+
+<TR BGCOLOR="#DEDEDE"><TD ALIGN="LEFT" VALIGN="TOP"><B>Palavras-chave</B> <SPAN class="hell">(Dados n&atilde;o publicados)<br>
+
+Escolha at&eacute; 10 palavras-chave para ajudar o usu&aacute;rio a encontrar seus dados atrav&eacute;s da Busca no Banco de Dados.<br>Escreva em letras min&uacute;sculas e use acentos.</SPAN><P>
+<INPUT TYPE="text" class="form1" size="18" name="chave1"> 
+<INPUT TYPE="text" class="form1" size="18" name="chave2"><br>
+<INPUT TYPE="text" class="form1" size="18" name="chave3"> 
+<INPUT TYPE="text" class="form1" size="18" name="chave4"><br>
+<INPUT TYPE="text" class="form1" size="18" name="chave5"> 
+<INPUT TYPE="text" class="form1" size="18" name="chave6"><br>
+<INPUT TYPE="text" class="form1" size="18" name="chave7"> 
+<INPUT TYPE="text" class="form1" size="18" name="chave8"><br>
+<INPUT TYPE="text" class="form1" size="18" name="chave9"> 
+<INPUT TYPE="text" class="form1" size="18" name="chave10"></TD></TR>
+
+<TR BGCOLOR="#CCCCCC"><TD ALIGN="CENTER" VALIGN="MIDDLE"><INPUT TYPE="submit" value=" &nbsp; &nbsp; Enviar Dados &nbsp; &nbsp; "></TD></TR>
+
+</TABLE></FORM>
+
+<!-- footer --><BR>&nbsp;<P><TABLE class="grau9" BORDER="0" WIDTH="400" CELLSPACING="5" CELLPADDING="6"><TR><TD BGCOLOR="#EFEFEF" ALIGN="CENTER" VALIGN="MIDDLE">| <A HREF="#kopf" class="grau">In&iacute;cio da p&aacute;gina</A> | <A HREF="javascript:window.close();" title="Fechar Janela" class="grau">Fechar Janela</A> | <A HREF="..\aclimacao\0203151.html" class="grau">Termo de compromisso</A> |</TD></TR><TR><TD ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="shell">&copy; Markus Steiger - S&atilde;o Paulo, Brasil</SPAN></TR></TABLE><!-- footer end -->
+
+</BODY></HTML>

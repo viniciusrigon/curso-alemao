@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00756</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form.answer1.selectedIndex
+var result2=document.form.answer2.selectedIndex
+var result3=document.form.answer3.selectedIndex
+var result4=document.form.answer4.selectedIndex
+var result5=document.form.answer5.selectedIndex
+var result6=document.form.answer6.selectedIndex
+var result7=document.form.answer7.selectedIndex
+var result8=document.form.answer8.selectedIndex
+    
+if (result1==0){ alert("1. ?");}
+if (result2==0){ alert("2. ?");}
+if (result3==0){ alert("3. ?");}
+if (result4==0){ alert("4. ?");}
+if (result5==0){ alert("5. ?");}
+if (result6==0){ alert("6. ?");}
+if (result7==0){ alert("7. ?");}
+if (result8==0){ alert("8. ?");}
+
+else {
+	if (result1==8){i++}
+ if (result2==6){i++}
+ if (result3==1){i++}
+ if (result4==5){i++}	
+	if (result5==3){i++}
+ if (result6==4){i++}
+ if (result7==7){i++}
+ if (result8==2){i++}
+				
+	document.total.score.value = i
+
+if (result1==8) document.form.check1.checked = "yes"; else document.form.check1.checked = false;
+if (result2==6) document.form.check2.checked = "yes"; else document.form.check2.checked = false;
+if (result3==1) document.form.check3.checked = "yes"; else document.form.check3.checked = false;
+if (result4==5) document.form.check4.checked = "yes"; else document.form.check4.checked = false;
+if (result5==3) document.form.check5.checked = "yes"; else document.form.check5.checked = false;
+if (result6==4) document.form.check6.checked = "yes"; else document.form.check6.checked = false;
+if (result7==7) document.form.check7.checked = "yes"; else document.form.check7.checked = false;
+if (result8==2) document.form.check8.checked = "yes"; else document.form.check8.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00756</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Was passt zusammen? W&auml;hlen Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Erg&auml;nzungen</SPAN></TD></TR>
+</TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="30" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<form name="form">
+
+1. &nbsp; <select name="answer1" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; telefonieren / verabredet sein / sprechen <input type="checkbox" name="check1"><BR><BR>
+
+2. &nbsp; <select name="answer2" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; leihen / schenken / schicken <input type="checkbox" name="check2"><BR><BR>
+
+3. &nbsp; <select name="answer3" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; wohnen / bleiben / &uuml;bernachten <input type="checkbox" name="check3"><BR><BR>
+
+4. &nbsp; <select name="answer4" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; gehen / ziehen / fahren <input type="checkbox" name="check4"><BR><BR>
+
+5. &nbsp; <select name="answer5" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; helfen / leid tun / zuh&ouml;ren <input type="checkbox" name="check5"><BR><BR>
+
+6. &nbsp; <select name="answer6" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; einkaufen / bezahlen / Zeit haben <input type="checkbox" name="check6"><BR><BR>
+
+7. &nbsp; <select name="answer7" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; anrufen / einladen / heiraten <input type="checkbox" name="check7"><BR><BR>
+
+8. &nbsp; <select name="answer8" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">bei einem Freund</option>
+<option value="2">ein Freund</option>
+<option value="3">einem Freund</option>
+<option value="4">f&uuml;r einen Freund</option>
+<option value="5">zu einem Freund</option>
+<option value="6">dem Freund ein Buch</option>
+<option value="7">einen Freund</option>
+<option value="8">mit einem Freund</option>
+</select> &nbsp; sein / bleiben / werden <input type="checkbox" name="check8">
+
+</form></TD></TR></TABLE><BR>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="446215.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

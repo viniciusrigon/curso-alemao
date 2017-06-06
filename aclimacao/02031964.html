@@ -1,0 +1,49 @@
+<HTML><HEAD><TITLE>mini-map&trade; no seu Site</TITLE><LINK HREF="acli.css" rel="stylesheet" type="text/css"><LINK REL="home" HREF="index.html"></HEAD><BODY>
+
+<TABLE class="norm11" BORDER="0" WIDTH="600" CELLSPACING="1" CELLPADDING="5"><TR><TD WIDTH="150" ALIGN="LEFT" VALIGN="MIDDLE"><A HREF="javascript:history.back();" title="voltar - back"><IMG SRC="..\fig\b-pfeil-b.gif" ALT="BACK" WIDTH="28" HEIGHT="27" BORDER="0"></A></TD><TD COLSPAN="2" ALIGN="LEFT" VALIGN="MIDDLE"><B>mini-map&trade; no seu Site</B></TD></TR><TR><TD WIDTH="150"></TD><TD COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><IMG SRC="02fig\f2831.gif"  ALT="[4kB] illustration mapviewer" WIDTH="145" HEIGHT="71" ALIGN="LEFT" HSPACE="10" BORDER="0">Segue os passos abaixo<BR>para abrir o mini-map&trade;<BR>de dentro do seu Site!<BR>Este servi&ccedil;o &eacute; totalmente gr&aacute;tis!<P>&nbsp;<BR>&nbsp; </TD></TR>
+
+<TR><TD BGCOLOR="#DEDEDE" WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">Passo <B>1</B></TD><TD BGCOLOR="#CCCCCC" COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><B>Na parte &lt;HEAD&gt; o script:</B></TD></TR>
+
+<TR><TD WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">&nbsp;</TD><TD COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><SPAN class="norm9"><PRE>
+
+&lt;script language="javascript"&gt;
+&lt;!--
+function openMiniMap()
+{
+map = window.open("http://www.info.pro.br/map/<SPAN class="rot">c&oacute;digo</SPAN>.htm",
+"mapviewer","width=320,height=420,directories=no,location=no,
+menubar=no,scrollbars=no,status=no,toolbar=no,resizable=no");
+self.name="main";
+map.focus();
+}
+// --&gt;
+&lt;/script&gt;</PRE></SPAN>&nbsp;<BR>
+
+<SPAN class="grau9">Observa&ccedil;&atilde;o: Cada mapa &eacute; identificado com um <SPAN class="rot">c&oacute;digo</SPAN>, abaixo do mapa. Por exemplo: u01/000023. Voc&ecirc; pode escolher o mapa mostrado na abertura do mini-map&trade;.<P>&nbsp;</SPAN></TD></TR>
+
+<TR><TD BGCOLOR="#DEDEDE" WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">Passo <B>2</B></TD><TD BGCOLOR="#CCCCCC" COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><B>Na parte &lt;BODY&gt; no lugar do link:</B></TD></TR>
+
+
+<TR><TD WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">&nbsp;</TD><TD COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><PRE><SPAN class="norm9">
+
+&lt;A HREF="javascript:openMiniMap()"&gt;Abrir Mapa&lt;/A&gt;</SPAN></PRE><P>&nbsp;</TD></TR>
+
+<TR><TD BGCOLOR="#DEDEDE" WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">Opcional</TD><TD BGCOLOR="#CCCCCC" COLSPAN="2" ALIGN="LEFT" VALIGN="TOP"><B>Uso de logotipos do mapa</B> (33 x 47 pixel / 1kB):</TD></TR>
+
+<TR><TD WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">&nbsp;</TD><TD COLSPAN="2" ALIGN="LEFT" VALIGN="TOP">&nbsp;<BR>
+
+<IMG SRC="..\map\fig\banner-minimap01.gif" ALT="mapa" WIDTH="33" HEIGHT="47" BORDER="0">&nbsp; 
+<IMG SRC="..\map\fig\banner-minimap02.gif" ALT="mapa" WIDTH="33" HEIGHT="47" BORDER="0">&nbsp; 
+<IMG SRC="..\map\fig\banner-minimap03.gif" ALT="mapa" WIDTH="33" HEIGHT="47" BORDER="0">&nbsp; 
+<IMG SRC="..\map\fig\banner-minimap01en.gif" ALT="mapa" WIDTH="33" HEIGHT="47" BORDER="0">&nbsp; 
+<IMG SRC="..\map\fig\banner-minimap02en.gif" ALT="mapa" WIDTH="33" HEIGHT="47" BORDER="0">&nbsp; 
+<IMG SRC="..\map\fig\banner-minimap03en.gif" ALT="mapa" WIDTH="33" HEIGHT="47" BORDER="0">
+
+</TD></TR>
+
+<TR><TD WIDTH="150" ALIGN="RIGHT" VALIGN="TOP">&nbsp;</TD><TD COLSPAN="2" ALIGN="LEFT" VALIGN="TOP">&nbsp;<BR>Em caso de qualquer d&uacute;vida ou necessitando de mais informa&ccedil;&otilde;es, estamos &agrave; sua disposi&ccedil;&atilde;o. Entre em contato com<BR><A HREF="mailto:webmaster@info.pro.br" class="grau">&raquo; webmaster@info.pro.br</A></TD></TR>
+
+</TABLE>
+
+</BODY>
+</HTML>

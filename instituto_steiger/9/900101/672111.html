@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00153</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.selectedIndex
+var result2=document.form2.answer2.selectedIndex
+var result3=document.form3.answer3.selectedIndex
+var result4=document.form4.answer4.selectedIndex
+    
+if (result1==0){ alert("1. ?");}
+if (result2==0){ alert("2. ?");}
+if (result3==0){ alert("3. ?");}
+if (result4==0){ alert("4. ?");}
+
+else {
+	if (result1==3){i++}
+ if (result2==1){i++}
+ if (result3==2){i++}
+ if (result4==2){i++}	
+				
+	document.total.score.value = i
+
+if (result1==3) document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2==1) document.form2.check2.checked = "yes"; else document.form2.check2.checked = false;
+if (result3==2) document.form3.check3.checked = "yes"; else document.form3.check3.checked = false;
+if (result4==2) document.form4.check4.checked = "yes"; else document.form4.check4.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00153</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. W&auml;hlen Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Pr&auml;position und Artikel</SPAN></TD></TR>
+</TABLE><!-- homebar end -->
+
+<TABLE WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR>
+<TD WIDTH="80" ALIGN="LEFT" VALIGN="TOP">&nbsp;</TD>
+<TD WIDTH="500" ALIGN="LEFT" VALIGN="TOP"><BR>
+
+<form name="form1">1. <SPAN class="gross"><select name="answer1" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">Im</option>
+<option value="2">In</option>
+<option value="3">In der</option>
+<option value="4">In einem</option>
+<option value="5">Ins</option>
+</select>&nbsp;Bar kann man ein Bier trinken. - <input type="checkbox" name="check1"></SPAN></form>
+
+<form name="form2">2. <SPAN class="gross">Hans steht <select name="answer2" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">am</option>
+<option value="2">an die</option>
+<option value="3">an der</option>
+<option value="4">an</option>
+</select>&nbsp;Fenster. - <input type="checkbox" name="check2"></SPAN></form>
+
+<form name="form3">3. <SPAN class="gross">Es gibt viele Wohnungen <select name="answer3" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">am</option>
+<option value="2">in einem</option>
+<option value="3">in die</option>
+<option value="4">an der</option>
+</select>&nbsp;Hochhaus. - <input type="checkbox" name="check3"></SPAN></form>
+
+<form name="form4">4. <SPAN class="gross">Ich sitze <select name="answer4" size="1">
+<option selected value="0">&nbsp;&nbsp;?</option>
+<option value="1">auf</option>
+<option value="2">auf dem</option>
+<option value="3">auf die</option>
+<option value="4">auf der</option>
+<option value="5">auf das</option>
+</select>&nbsp;Stuhl. - <input type="checkbox" name="check4"></SPAN></form><BR></TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="613488.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

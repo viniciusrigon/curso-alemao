@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00878</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form2.answer2.value
+var result3=document.form3.answer3.value
+var result4=document.form4.answer4.value
+var result5=document.form5.answer5.value
+var result6=document.form6.answer6.value
+    
+if (result1==''){ alert("ich ... ?");}
+if (result2==''){ alert("du ... ?");}
+if (result3==''){ alert("er, sie, es ... ?");}
+if (result4==''){ alert("wir ... ?");}
+if (result5==''){ alert("ihr ... ?");}
+if (result6==''){ alert("sie, Sie ... ?");}
+
+else {
+	if (result1=='verstehe'){i++}
+ if (result2=='verstehst'){i++}
+ if (result3=='versteht'){i++}
+ if (result4=='verstehen'){i++}	
+ if (result5=='versteht'){i++}	
+ if (result6=='verstehen'){i++}	
+				
+	document.total.score.value = i
+
+if (result1=='verstehe') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='verstehst') document.form2.check2.checked = "yes"; else document.form2.check2.checked = false;
+if (result3=='versteht') document.form3.check3.checked = "yes"; else document.form3.check3.checked = false;
+if (result4=='verstehen') document.form4.check4.checked = "yes"; else document.form4.check4.checked = false;
+if (result5=='versteht') document.form5.check5.checked = "yes"; else document.form5.check5.checked = false;
+if (result6=='verstehen') document.form6.check6.checked = "yes"; else document.form6.check6.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00878</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Konjugieren Sie!</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">verstehen</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="10" BORDER="0"><TR>
+
+<TD WIDTH="48%" ALIGN="RIGHT" VALIGN="TOP"><BR><form name="form1">ich &nbsp;&nbsp;<INPUT TYPE="text" name="answer1" VALUE="" SIZE="15" TABINDEX="1"><input type="checkbox" name="check1"></form><form name="form2">du &nbsp;&nbsp;<INPUT TYPE="text" name="answer2" VALUE="" SIZE="15" TABINDEX="2"><input type="checkbox" name="check2"></form><form name="form3">er (sie, es)&nbsp;&nbsp;<INPUT TYPE="text" name="answer3" VALUE="" SIZE="15" TABINDEX="3"><input type="checkbox" name="check3"></form><BR></TD>
+
+<TD WIDTH="48%" ALIGN="RIGHT" VALIGN="TOP"><BR><form name="form4">wir&nbsp;&nbsp;<INPUT TYPE="text" name="answer4" VALUE="" SIZE="15" TABINDEX="4"><input type="checkbox" name="check4"></form><form name="form5">ihr&nbsp;&nbsp;<INPUT TYPE="text" name="answer5" VALUE="" SIZE="15" TABINDEX="5"><input type="checkbox" name="check5"></form><form name="form6">sie (Sie)&nbsp;&nbsp;<INPUT TYPE="text" name="answer6" VALUE="" SIZE="15" TABINDEX="6"><input type="checkbox" name="check6"></form><BR></TD><TD WIDTH="6%">&nbsp;</TD>
+
+</TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> von 6 richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="559339.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

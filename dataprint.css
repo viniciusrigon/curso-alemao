@@ -1,0 +1,51 @@
+body { background-color:#FFFFFF; font-family:Verdana,Geneva,Arial,sans-serif; margin-left:25px; margin-top:40px; margin-right:25px; }
+
+h1  { font-size:29px; color: #000000; font-family:Times,serif; font-weight:bolder; letter-spacing:0.01cm; }
+
+.norm12  { color: #000000; font-size: 10px; line-height: 15px; letter-spacing:0.01cm; }
+.norm11  { color: #000000; font-size: 10px; line-height: 15px; letter-spacing:0.01cm; }
+.norm10  { color: #000000; font-size: 10px; line-height: 15px; letter-spacing:0.01cm; }
+.norm9   { color: #000000; font-size: 10px; line-height: 15px; letter-spacing:0.01cm; }
+.grau9   { color: #999999; font-size: 8px;  line-height: 15px; letter-spacing:0.01cm; }
+.hell    { color: #999999; }
+.rot     { color:#FF0000; }
+
+.titel   { font-size:32px; color: #000000; font-family:Times,serif; font-weight:bolder; letter-spacing:0.01cm; }
+
+.ez50    { margin-left:50px; }
+.ez100   { margin-left:25px; }
+.ez120   { margin-left:120px; }
+.ez150   { margin-left:150px; }
+.ez250   { margin-left:250px; }
+
+TD    { border-width: 1px; border-style: dotted; border-color:#999999; }
+ul { margin-top:30px; font-size: 11px; line-height: 16px; list-style-type: circle; }
+li { font-size: 11px; line-height: 16px; }
+
+B  { letter-spacing:0.03cm; }
+
+.noprint { display: none }
+
+hr       { line-height:1; color:#DEDEDE }
+
+a:link { color:#FF0000; text-decoration:none; }
+a:visited {color:#FF6363; text-decoration:none; }
+a:hover {color:#0000FF; text-decoration:none; }
+a:active {color:#FF0000; text-decoration:none; }
+
+a.ext:link { color:#999999; text-decoration:underline }
+a.ext:visited {color:#999999; text-decoration:underline }
+a.ext:hover {color:#0000FF; text-decoration:underline }
+a.ext:active {color:#FF0000; text-decoration:underline }
+
+a.klein:link { color:#999999; text-decoration:none; font-size: 9px; }
+a.klein:visited {color:#999999; text-decoration:none; font-size: 9px; }
+a.klein:hover {color:#0000FF; text-decoration:none; font-size: 9px; }
+a.klein:active {color:#FFFF00; text-decoration:none; font-size: 9px; }
+
+a.map:link { color:#FFFFFF; background-color:#000000; text-decoration:none; font-size: 11px; }
+a.map:visited {color:#FFFFFF; background-color:#000000; text-decoration:none; font-size: 11px; }
+a.map:hover {color:#FF0000; background-color:#CCCCCC; text-decoration:none; font-size: 11px; }
+a.map:active {color:#FFFF00; background-color:#CCCCCC; text-decoration:none; font-size: 11px; }
+
+/* copyright markus steiger 04.03.2002 */

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00723</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "a";
+ans[2] = "a";
+ans[3] = "b";
+ans[4] = "b";
+ans[5] = "b";
+ans[6] = "a";
+ans[7] = "b";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch! - Errado!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig! - Certo!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 7) {
+alert("!");
+}
+if (score >= 6 && score <= 7) {
+alert("Gut! Jetzt kommt Teil II!\nBom! Agora vem a parte II.")
+self.location="300215.html"
+
+}
+else {
+alert("Sie muessen 6 Fragen richtig beantworten um weiterzufahren.\nPrecisa de 6 respostas certas para continuar!")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00723</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Leseverstehen. Mit 6 von 7 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von IV</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#FFFFFF" CELLSPACING="1" CELLPADDING="20" BORDER="0"><TR>
+<TD BGCOLOR="#EFEFEF" WIDTH="50%" ALIGN="LEFT" VALIGN="TOP">
+
+<SPAN class="gross"><B>Der Apfel und die Kinder</B></SPAN><BR><BR>
+
+Der kindliche Organismus verf&uuml;gt noch nicht &uuml;ber gro&szlig;e Reserven an Wasser und <a href="../../..\data904\010\65870.html" class="vok" title="traduzir ...">N&auml;hrstoff</A>. Konzentrationsschw&auml;che und schlechte Produktivit&auml;t in der Schule sind oft eine Konsequenz des <a href="../../..\data904\010\3128.html" class="vok" title="traduzir ...">Mangels</a> an Kohlenhydrat und Fl&uuml;ssigkeit. Deshalb m&uuml;ssen Kinder mehrmals am Tag essen, auch in der Zeit zwischen Fr&uuml;hst&uuml;ck, Mittagessen und Abendbrot. <BR><BR>In den Pausen eignen sich &Auml;pfel sehr gut als kleines Essen, denn sie <a href="../../..\data904\009\3221.html" class="vok" title="traduzir ...">enthalten</a> einfache Kohlenhydrate, wie Trauben- und Fruchtzucker, die schnell ins Blut gehen und daher auch schnell gegen M&uuml;digkeit und Konzentrationsschw&auml;che helfen. Der gro&szlig;e Wasseranteil (ca. 80 Prozent) stillt sofort den gr&ouml;&szlig;ten Durst.<BR><BR>Die im Apfel enthaltenen Vitamine (B1, B2, B6, aber vor allem Vitamin C) sch&uuml;tzen gegen Krankheiten wie Grippe und Husten. Calcium und Phosphor sind wichtig f&uuml;r den Aufbau von Knochen und Z&auml;hnen. Cellulose und Pektin reinigen den Magen-Darmtrakt des K&ouml;rpers und sorgen f&uuml;r eine gute Verdauung. <BR><BR>Da der Hauptanteil der N&auml;hrstoffe direkt unter der Schale liegt, sollen &Auml;pfel mit der Schale gegessen werden. <BR><BR>&Auml;pfel sind also nicht nur ein erfrischender und gesunder Snack, sie sind auch "schultaschenfreundlich", denn schon Mutter Natur hat sie besonders praktisch und umweltfreundlich verpackt.<BR><BR><SPAN class="kleinh">&copy; CONCURSO VESTIBULAR 2000 - UFPR</SPAN></TD>
+
+<TD BGCOLOR="#DEDEDE" ALIGN="LEFT" VALIGN="BOTTOM">
+
+<FORM>
+
+<SPAN class="kleinr"><B>Was sagt der Text?</B></SPAN><OL>
+<LI>&Auml;pfel sind f&uuml;r Kinder gesund und geeignet.<BR><input type=radio value="a" onClick="Engine(1, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(1, this.value)">falsch<BR><BR>
+<LI>&Auml;pfel enthalten Kohlenhydrate, Cellulose und Vitamine.<BR><input type=radio value="a" onClick="Engine(2, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(2, this.value)">falsch<BR><BR>
+<LI>&Auml;pfel sind ges&uuml;nder als Trauben.<BR><input type=radio value="a" onClick="Engine(3, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(3, this.value)">falsch<BR><BR>
+<LI>Nur Kinder mit Lernschwierigkeiten sollen &Auml;pfel essen.<BR><input type=radio value="a" onClick="Engine(4, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(4, this.value)">falsch<BR><BR>
+<LI>Kinder, die keine &Auml;pfel essen, k&ouml;nnen sich in der Schule nur schlecht konzentrieren.<BR><input type=radio value="a" onClick="Engine(5, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(5, this.value)">falsch<BR><BR>
+<LI>Man sollte den Apfel nicht absch&auml;len, bevor man ihn i&szlig;t, denn der Hauptanteil der N&auml;hrstoffe liegt direkt unter der Schale.<BR><input type=radio value="a" onClick="Engine(6, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(6, this.value)">falsch<BR><BR>
+<LI>Kinder essen &Auml;pfel gerne.<BR><input type=radio value="a" onClick="Engine(7, this.value)">richtig &nbsp; &nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(7, this.value)">falsch</OL>
+
+</FORM></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00266</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form1.answer2.value
+var result3=document.form2.answer3.value
+var result4=document.form2.answer4.value
+var result5=document.form3.answer5.value
+var result6=document.form3.answer6.value
+    
+if (result1==''){ alert("b) ?");}
+if (result2==''){ alert("b) ?");}
+if (result3==''){ alert("c) ?");}
+if (result4==''){ alert("c) ?");}
+if (result5==''){ alert("d) ?");}
+if (result6==''){ alert("d) ?");}
+
+else {
+	if (result1=='22'){i++}
+ if (result2=='25'){i++}
+ if (result3=='6'){i++}
+ if (result4=='45'){i++}	
+ if (result5=='20'){i++}
+ if (result6=='20'){i++}
+				
+	document.total.score.value = i
+
+if (result1=='22') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='25') document.form1.check2.checked = "yes"; else document.form1.check2.checked = false;
+if (result3=='6') document.form2.check3.checked = "yes"; else document.form2.check3.checked = false;
+if (result4=='45') document.form2.check4.checked = "yes"; else document.form2.check4.checked = false;
+if (result5=='20') document.form3.check5.checked = "yes"; else document.form3.check5.checked = false;
+if (result6=='20') document.form3.check6.checked = "yes"; else document.form3.check6.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00266</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Schreiben Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Zeitangabe</SPAN></TD></TR>
+</TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+a) &nbsp; Es ist zehn vor drei (<a href="../../..\data904\010\11276.html" class="vok" title="traduzir ...">nachmittags</a>). &nbsp; <SPAN class="gross"><B>14.50</B> Uhr.<BR></SPAN>
+
+<form name="form1">b) &nbsp; Es ist f&uuml;nf vor halb elf (<a href="../../..\data904\010\11277.html" class="vok" title="traduzir ...">abends</a>). &nbsp; <SPAN class="gross"><INPUT TYPE="text" name="answer1" VALUE="" SIZE="2"><B>.</B> <INPUT TYPE="text" name="answer2" VALUE="" SIZE="2"> Uhr.
+- <input type="checkbox" name="check1"> - <input type="checkbox" name="check2"></SPAN></form>
+
+<form name="form2">c) &nbsp; Es ist Viertel vor sieben (<a href="../../..\data904\010\11274.html" class="vok" title="traduzir ...">morgens</a>). &nbsp; <SPAN class="gross"><INPUT TYPE="text" name="answer3" VALUE="" SIZE="2"><B>.</B> <INPUT TYPE="text" name="answer4" VALUE="" SIZE="2"> Uhr.
+- <input type="checkbox" name="check3"> - <input type="checkbox" name="check4"></SPAN></form>
+
+<form name="form3">d) &nbsp; Es ist zwanzig nach acht (<a href="../../..\data904\010\11277.html" class="vok" title="traduzir ...">abends</a>). &nbsp; <SPAN class="gross"><INPUT TYPE="text" name="answer5" VALUE="" SIZE="2"><B>.</B> <INPUT TYPE="text" name="answer6" VALUE="" SIZE="2"> Uhr.
+- <input type="checkbox" name="check5"> - <input type="checkbox" name="check6"></SPAN></form>
+
+</TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="800217.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

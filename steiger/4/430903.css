@@ -1,0 +1,56 @@
+body { background-color:#FFFFFF; font-family:Verdana,Geneva,Arial,sans-serif; margin-left:30px; margin-top:30px; margin-right:10px; }
+
+
+h1  { font-family:Times,serif; font-size:32px; font-weight:normal; color:#000000; letter-spacing:0.01cm; }
+.gesp  { font-family:Times,serif; font-size:32px; font-weight:normal; color:#000000; letter-spacing:0.02cm; }
+h2  { font-family:Times,serif; font-size:28px; font-weight:normal; color:#000000; letter-spacing:0.01cm; }
+h3  { font-family:Times,serif; font-size:24px; font-weight:normal; color:#000000; letter-spacing:0.02cm; }
+h4  { font-family:Times,serif; font-size:20px; font-weight:normal; color:#000000; letter-spacing:0.03cm; }
+h5  { font-family:Times,serif; font-size:16px; font-weight:normal; color:#000000; letter-spacing:0.04cm; }
+
+.ti11   { font-size:11px; color: #000000; font-weight:bolder; letter-spacing:0.04cm; }
+.ti12   { font-size:12px; color: #000000; font-weight:bolder; letter-spacing:0.04cm; }
+.ti13   { font-size:13px; color: #000000; font-weight:bolder; letter-spacing:0.04cm; }
+.ti14   { font-size:14px; color: #000000; font-weight:bolder; letter-spacing:0.04cm; }
+.ti16   { font-size:16px; color: #000000; font-weight:bolder; letter-spacing:0.04cm; }
+.ti18   { font-size:18px; color: #000000; font-weight:bolder; letter-spacing:0.04cm; }
+
+.norm12  { color: #000000; font-size: 12px; line-height: 18px; letter-spacing:0.01cm; }
+.norm11  { color: #000000; font-size: 11px; line-height: 18px; letter-spacing:0.01cm; }
+.norm111 { color: #000000; font-size: 11px; line-height: 16px; letter-spacing:0.01cm; }
+.norm1111 { color: #000000; font-size: 11px; line-height: 16px; letter-spacing:0.02cm; }
+.norm9   { color: #000000; font-size: 9px; line-height: 14px; letter-spacing:0.01cm; }
+.norm92  { color: #000000; font-size: 9px; line-height: 14px; letter-spacing:0.02cm; }
+
+.inhalt  { margin-left:60px; font-size: 11px; line-height: 22px; letter-spacing:0.01cm; color: #999999; }
+
+.shell   { color: #DEDEDE; }
+.hell    { color: #CCCCCC; }
+.rot     { color:#FF0000; }
+.grau    { color: #999999; }
+.grau9   { color: #999999; font-size: 9px; letter-spacing:0.01cm; }
+.weiss   { color: #FFFFFF; }
+
+hr       { line-height:1; color:#DEDEDE }
+
+a:link { color:#FF0000; text-decoration:none; }
+a:visited {color:#FF6363; text-decoration:none; }
+a:bb:hover {color:#0000FF; text-decoration:none; }
+a:active {color:#FF0000; text-decoration:none; }
+
+a.nav:link { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:visited { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:bb:hover { color:#FF0000; text-decoration:none; font-size: 11px; }
+a.nav:active { color:#FF0000; text-decoration:none; font-size: 11px; }
+
+a.ext:link { color:#999999; text-decoration:underline }
+a.ext:visited {color:#999999; text-decoration:underline }
+a.ext:bb:hover {color:#0000FF; text-decoration:underline }
+a.ext:active {color:#FF0000; text-decoration:underline }
+
+a.klein:link { color:#999999; text-decoration:none; font-size: 9px; line-height: 14px; }
+a.klein:visited {color:#999999; text-decoration:none; font-size: 9px; line-height: 14px; }
+a.klein:bb:hover {color:#0000FF; text-decoration:none; font-size: 9px; line-height: 14px; }
+a.klein:active {color:#FFFF00; text-decoration:none; font-size: 9px; line-height: 14px; }
+
+/* copyright markus steiger 04.06.2002 */

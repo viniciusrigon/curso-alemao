@@ -1,0 +1,20 @@
+body { font-family:Verdana,Geneva,Arial,sans-serif; font-size: 11px; line-height: 15px; letter-spacing:0.01cm; margin-left:0px; margin-top:0px; margin-right:0px; }
+
+.norm9   { color: #000000; font-size: 9px; line-height: 14px; font-weight:normal; letter-spacing:0.01cm; }
+.norm11   { color: #000000; font-size: 11px; line-height: 14px; font-weight:normal; letter-spacing:0.01cm; }
+
+.weiss   { color: #FFFFFF; }
+
+input { color: #000000; border: #dedede 1px solid; padding: 2px; background-color:#ffffff; font-size:11px; font-family:Verdana,Geneva,sans-serif; }
+
+a:link { color:#FF0000; text-decoration:none; }
+a:visited {color:#FF6363; text-decoration:none; }
+a:hover {color:#0000FF; text-decoration:none; }
+a:active {color:#FF0000; text-decoration:none; }
+
+a.nav:link { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:visited { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:hover { color:#FF0000; text-decoration:none; font-size: 11px; }
+a.nav:active { color:#FF0000; text-decoration:none; font-size: 11px; }
+
+/* copyright markus steiger 04.06.2002 */

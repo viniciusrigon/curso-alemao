@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00865</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "ag";
+ans[2] = "tund";
+ans[3] = "orgen";
+ans[4] = "Mit";
+ans[5] = "Nach";
+ans[6] = "bend";
+ans[7] = "en";
+ans[8] = "tag";
+ans[9] = "iens";
+ans[10] = "tt";
+ans[11] = "tag";
+ans[12] = "ei";
+ans[13] = "Sams";
+ans[14] = "onn";
+
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 14) {
+alert("!");
+}
+if (score >= 10 && score <= 14) {
+alert("Gut! Jetzt kommt Teil II!")
+self.location="820213.html"
+
+}
+else {
+alert("Sie muessen 10 Fragen richtig beantworten um weiterzufahren.")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00865</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr"><B>Tag - Monat - Jahr</B><BR>1. Erg&auml;nzen Sie! Benutzen Sie die Tabulatortaste um zum n&auml;chsten Feld zu gelangen. Mit 10 von 14 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="30" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<FORM>
+
+Ein T<input type=text  size=2 value="" onChange="Engine(1, this.value)"> hat 24 S<input type=text  size=5 value="" onChange="Engine(2, this.value)">en.<BR><BR>Die Tageszeiten heissen:<UL><LI>der M<input type=text  size=5 value="" onChange="Engine(3, this.value)"><LI>der Vormittag<LI>der <input type=text  size=3 value="" onChange="Engine(4, this.value)">tag<LI>der <input type=text  size=4 value="" onChange="Engine(5, this.value)">mittag<LI>der A<input type=text  size=4 value="" onChange="Engine(6, this.value)"><LI>die Nacht</UL>
+
+Sieb<input type=text  size=2 value="" onChange="Engine(7, this.value)"> Tage sind eine Woche:<UL><LI>Mon<input type=text  size=3 value="" onChange="Engine(8, this.value)"><LI>D<input type=text  size=4 value="" onChange="Engine(9, this.value)">tag<LI>Mi<input type=text  size=2 value="" onChange="Engine(10, this.value)">woch<LI>Donners<input type=text  size=3 value="" onChange="Engine(11, this.value)"><LI>Fr<input type=text  size=2 value="" onChange="Engine(12, this.value)">tag<LI>Sonnabend (In West- und S&uuml;ddeutschland heisst der Sonnabend <input type=text  size=5 value="" onChange="Engine(13, this.value)">tag)<LI>S<input type=text  size=3 value="" onChange="Engine(14, this.value)">tag</UL>
+
+</FORM></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp;Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

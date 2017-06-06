@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00181</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="form2.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!--
+function chkFormular()
+{
+ if(document.Formular.email.value == "")
+  {
+  alert("Ihr/Seu E-Mail?");
+  document.Formular.email.focus();
+  return false;
+  }
+if(document.Formular.email.value.indexOf('@') == -1)
+ {
+  alert("E-Mail correto?");
+  document.Formular.email.focus();
+  return false;
+ }
+}
+//-->
+</script>
+
+</HEAD><BODY><!-- homebar --><TABLE class="norm11"WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="white">&nbsp;E-Mail</A></SPAN></TD><TD BGCOLOR="#9C9CCE" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE">id: 00181</TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="hell"> | <A HREF="javascript:window.close();" title="Close Window" class="hgrau">Fenster schliessen - Fechar Janela</A> |</SPAN></TD></TR><TR><TD WIDTH="320" COLSPAN="4" ALIGN="RIGHT" VALIGN="BOTTOM"><H2>Link hinzuf&uuml;gen<SPAN class="shell"> - Adicionar Link</SPAN></H2></TD></TR>
+
+<FORM NAME="Formular" METHOD="POST" ACTION="..\cgi-bin\900213.cgi" onSubmit="return chkFormular()">
+
+<TR BGCOLOR="#EFEFEF"><TD WIDTH="260" COLSPAN="3" ALIGN="RIGHT" VALIGN="MIDDLE"><BR><SPAN class="klein"><SPAN class="hell">Seu Email - </SPAN>Ihre E-Mail-Adresse:</SPAN></TD><TD WIDTH="320" ALIGN="LEFT" VALIGN="MIDDLE"><BR>
+
+<INPUT TYPE="text" size="35" name="email" class="form1">
+
+</TD></TR><TR BGCOLOR="#EFEFEF"><TD WIDTH="260" COLSPAN="3" ALIGN="RIGHT" VALIGN="TOP"><B>Link</B>:</TD><TD WIDTH="320" ALIGN="LEFT" VALIGN="TOP">
+
+<INPUT TYPE="text" size="35" value="http://www." name="url" class="form1">
+
+</TD></TR><TR BGCOLOR="#EFEFEF"><TD WIDTH="260" COLSPAN="3" ALIGN="RIGHT" VALIGN="TOP">Kommentare, Beschrieb (freiwillig):<BR><SPAN class="hell">Coment&aacute;rios, descri&ccedil;&atilde;o (opcional)</SPAN></TD><TD WIDTH="320" ALIGN="LEFT" VALIGN="TOP">
+
+<TEXTAREA NAME="Kommentar" ROWS="4" COLS="35" class="form1"></TEXTAREA>
+
+<BR><BR></TD></TR><TR BGCOLOR="#DEDEDE"><TD WIDTH="260" COLSPAN="3" ALIGN="RIGHT" VALIGN="TOP">&nbsp;</TD><TD WIDTH="320" ALIGN="LEFT" VALIGN="TOP"><BR>
+
+<INPUT TYPE="submit" value=" &nbsp; Link senden - Enviar link &nbsp; "></FORM>
+
+<BR></TD></TR></TABLE><BR>
+
+<!-- footer --><SPAN class="grau9">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end --></BODY></HTML>

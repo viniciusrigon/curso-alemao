@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00870</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "b";
+ans[2] = "c";
+ans[3] = "d";
+ans[4] = "a";
+ans[5] = "a";
+ans[6] = "a";
+ans[7] = "a";
+ans[8] = "c";
+ans[9] = "c";
+ans[10] = "b";
+ans[11] = "c";
+ans[12] = "e";
+ans[13] = "a";
+ans[14] = "a";
+ans[15] = "a";
+
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 15) {
+alert("!");
+}
+if (score >= 12 && score <= 15) {
+alert("Gut! Jetzt kommt Teil II!")
+self.location="821213.html"
+
+}
+else {
+alert("Sie muessen 12 Fragen richtig beantworten um weiterzufahren.")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00870</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. in, nach, bis, von, ueber: 
+<B>Was passt?</B> Mit 12 von 15 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="30" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<FORM>
+
+a) &nbsp;  &nbsp; Der Zug f&auml;hrt&nbsp; <select name="2" onChange="Engine(1, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> K&ouml;ln&nbsp; <select name="2" onChange="Engine(2, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Frankfurt.<BR><BR> 
+
+b) &nbsp;  &nbsp; Der Eilzug (Schnellzug) f&auml;hrt nur&nbsp; <select name="2" onChange="Engine(3, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Mainz. <BR><BR> 
+
+c) &nbsp;  &nbsp; Jetzt sind wir&nbsp; <select name="2" onChange="Engine(4, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Koblenz.<BR><BR> 
+
+d) &nbsp;  &nbsp; Um wieviel Uhr sind wir&nbsp; <select name="2" onChange="Engine(5, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Frankfurt?<BR><BR> 
+
+e) &nbsp;  &nbsp; Ich fahre heute bis Stuttgart. Wie lange hat der D-Zug&nbsp; <select name="2" onChange="Engine(6, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Mainz Aufenthalt?<BR><BR> 
+
+f) &nbsp;  &nbsp; Der D-Zug kommt um 13.32 Uhr&nbsp; <select name="2" onChange="Engine(7, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Frankfurt an.<BR><BR> 
+
+g) &nbsp;  &nbsp; F&auml;hrt der Zug&nbsp; <select name="2" onChange="Engine(8, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> M&uuml;nchen hier ab? <BR><BR> 
+
+h) &nbsp;  &nbsp; Was kostet eine Fahrkarte&nbsp; <select name="2" onChange="Engine(9, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Hamburg?<BR><BR> 
+
+i) &nbsp;  &nbsp; Frau Hofer kommt&nbsp; <select name="2" onChange="Engine(10, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Bremen und f&auml;hrt&nbsp; <select name="2" onChange="Engine(11, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> M&uuml;nchen.<BR><BR> 
+
+j) &nbsp;  &nbsp; Der Zug M&uuml;nchen-Frankfurt f&auml;hrt&nbsp; <select name="2" onChange="Engine(12, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> N&uuml;rnberg und W&uuml;rzburg.<BR><BR>
+
+k) &nbsp;  &nbsp; Der Zug h&auml;lt nicht&nbsp; <select name="2" onChange="Engine(13, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Mainz, sondern nur&nbsp; <select name="2" onChange="Engine(14, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Bonn und&nbsp; <select name="2" onChange="Engine(15, this.value)" size="1"> <option selected value="a">in</option> <option selected value="b">von</option> <option selected value="c">nach</option> <option selected value="d">bis</option> <option selected value="e">&uuml;ber</option> <option selected value="f">&nbsp;&nbsp;?</option></select> Koblenz.
+
+</FORM>
+
+</TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

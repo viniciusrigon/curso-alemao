@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00177</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result5=document.form5.answer5.value
+var result6=document.form6.answer6.value
+var result7=document.form7.answer7.value
+var result8=document.form8.answer8.value
+    
+if (result5==''){ alert("5. ?");}
+if (result6==''){ alert("6. ?");}
+if (result7==''){ alert("7. ?");}
+if (result8==''){ alert("8. ?");}
+
+else {	
+	if (result5=='uns'){i++}
+ if (result6=='euch'){i++}
+ if (result7=='ihnen'){i++}
+ if (result8=='Ihnen'){i++}	
+				
+	document.total.score.value = i
+
+if (result5=='uns') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result6=='euch') document.form2.check2.checked = "yes"; else document.form2.check2.checked = false;
+if (result7=='ihnen') document.form3.check3.checked = "yes"; else document.form3.check3.checked = false;
+if (result8=='Ihnen') document.form4.check4.checked = "yes"; else document.form4.check4.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00177</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> | <A HREF="764302.html" class="grau"> Singular </A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Schreiben Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Personalpronomen im Dativ</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR>
+<TD WIDTH="40" ALIGN="LEFT" VALIGN="TOP">&nbsp;</TD>
+<TD WIDTH="540" ALIGN="LEFT" VALIGN="TOP"><BR>Plural:
+
+<form name="form5">a) &nbsp;wir:&nbsp;&nbsp;&nbsp;<SPAN class="gross">Herr M&uuml;ller, Sie m&uuml;ssen <INPUT TYPE="text" name="answer5" VALUE="" SIZE="8"> helfen. - <input type="checkbox" name="check1"></SPAN></form>
+
+<form name="form6">b) &nbsp;ihr:&nbsp;&nbsp;&nbsp;<SPAN class="gross">Geh&ouml;rt der Hund <INPUT TYPE="text" name="answer6" VALUE="" SIZE="8"> ? - <input type="checkbox" name="check2"></SPAN></form>
+
+<form name="form7">c) &nbsp;sie:&nbsp;&nbsp;&nbsp;<SPAN class="gross">Zeigst du <INPUT TYPE="text" name="answer7" VALUE="" SIZE="8"> ihre Zimmer. - <input type="checkbox" name="check3"></SPAN></form>
+
+<form name="form8">d) &nbsp;Sie:&nbsp;&nbsp;&nbsp;<SPAN class="gross">Ich kann <INPUT TYPE="text" name="answer8" VALUE="" SIZE="8"> das nicht sagen. - <input type="checkbox" name="check4"></SPAN><BR></form>
+
+</TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="187202.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

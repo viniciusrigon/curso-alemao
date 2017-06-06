@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00191</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "c";
+ans[2] = "c";
+ans[3] = "c";
+ans[4] = "d";
+ans[5] = "a";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch! - Errado!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig! - Certo!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 5) {
+alert("!");
+}
+if (score >= 4 && score <= 6) {
+alert("Gut! Jetzt kommt Teil II!\nBom! Agora vem a parte II.")
+self.location="424011.html"
+
+}
+else {
+alert("Sie muessen 4 Fragen richtig beantworten um weiterzufahren.\nPrecisa de 4 respostas certas para continuar!")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00191</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. W&auml;hlen Sie das passende Synonym. Mit 4 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von IV</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR>
+<TD WIDTH="40" ALIGN="LEFT" VALIGN="TOP">&nbsp;</TD>
+<TD WIDTH="540" ALIGN="LEFT" VALIGN="TOP"><BR>
+
+<FORM>
+1.  <SPAN class="gross">Ich habe <B>vergebens</B> bei Herrn Kamm angerufen.</SPAN> <BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(1, this.value)">vorhin
+<input type=radio value="b" onClick="Engine(1, this.value)">noch nicht
+<input type=radio value="c" onClick="Engine(1, this.value)">umsonst
+<input type=radio value="d" onClick="Engine(1, this.value)">wieder<BR><BR>
+2.  <SPAN class="gross">Die Situation hat sich<B> nach und nach</B> verbessert.</SPAN> <BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(2, this.value)">pl&ouml;tzlich
+<input type=radio value="b" onClick="Engine(2, this.value)">noch nicht
+<input type=radio value="c" onClick="Engine(2, this.value)">langsam
+<input type=radio value="d" onClick="Engine(2, this.value)">schnell<BR><BR>
+3.  <SPAN class="gross"><B>Eventuell</B> komme ich etwas sp&auml;ter als geplant. </SPAN><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(3, this.value)">Sicher
+<input type=radio value="b" onClick="Engine(3, this.value)">Ohne Zweifel
+<input type=radio value="c" onClick="Engine(3, this.value)">Vielleicht
+<input type=radio value="d" onClick="Engine(3, this.value)">Allein<BR><BR>
+4.  <SPAN class="gross"><B>Vorhin</B> ist mir etwas Lustiges passiert. </SPAN><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(4, this.value)">Vor langer Zeit
+<input type=radio value="b" onClick="Engine(4, this.value)">Gestern
+<input type=radio value="c" onClick="Engine(4, this.value)">Noch nie
+<input type=radio value="d" onClick="Engine(4, this.value)">Vor kurzer Zeit<BR><BR>
+5.  <SPAN class="gross">Pro Tag musst du <B>wenigstens</B> 20 Minuten lernen.</SPAN><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(5, this.value)">20 Minuten oder mehr
+<input type=radio value="b" onClick="Engine(5, this.value)">genau 20 Minuten<BR>&nbsp; &nbsp; &nbsp;<input type=radio value="c" onClick="Engine(5, this.value)">weniger als 20 Minuten
+<input type=radio value="d" onClick="Engine(5, this.value)">zwischen 10 und 20 Minuten<BR>
+
+</FORM>
+
+</SPAN></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="..\95\567804.html" TITLE="Como funciona" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

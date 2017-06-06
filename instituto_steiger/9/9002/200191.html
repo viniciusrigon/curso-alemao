@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00583</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "b";
+ans[2] = "a";
+ans[3] = "a";
+ans[4] = "b";
+ans[5] = "a";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch! - Errado!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig! - Certo!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 5) {
+alert("!");
+}
+if (score >= 4 && score <= 5) {
+alert("Gut! Jetzt kommt Teil II!\nBom! Agora vem a parte II.")
+self.location="200215.html"
+
+}
+else {
+alert("Sie muessen 4 Fragen richtig beantworten um weiterzufahren.\nPrecisa de 4 respostas certas para continuar!")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00583</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Welcher Satz hat die gleiche Bedeutung? Mit 4 von 5 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="10" CELLPADDING="10" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP"><BR>
+
+<FORM>
+
+1.  <B>Er reisst das Gespr&auml;ch immer an sich.</B><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(1, this.value)">Er spricht immer viel zu laut.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="b" onClick="Engine(1, this.value)">Meistens redet er, und die anderen m&uuml;ssen zuh&ouml;ren.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="c" onClick="Engine(1, this.value)">Er unterh&auml;lt sich nicht gern mit anderen.<BR><BR>
+
+2.  <B>Er kann sich benehmen.</B><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(2, this.value)">Er ist ein h&ouml;flicher und angenehmer Mensch.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="b" onClick="Engine(2, this.value)">Er sieht gut aus.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="c" onClick="Engine(2, this.value)">Er ist besonders intelligent.<BR><BR>
+
+3.  <B>Er l&auml;sst nur seine eigene Meinung gelten.</B><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(3, this.value)">Er glaubt, dass er alles am besten weiss.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="b" onClick="Engine(3, this.value)">Er hat ganz vern&uuml;nftige Ansichten.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="c" onClick="Engine(3, this.value)">Meistens versteht man nicht was er meint.<BR><BR>
+
+4.  <B>Er l&auml;sst sich nichts sagen.</B><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(4, this.value)">Er sagt nie etwas.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="b" onClick="Engine(4, this.value)">Die Meinung von anderen Leuten interessiert ihn nicht.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="c" onClick="Engine(4, this.value)">Er spricht nicht gern mit anderen Leuten.<BR><BR>
+
+5.  <B>Er f&uuml;hlt sich in Gesellschaft wohl.</B><BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="a" onClick="Engine(5, this.value)">Er freut sich, wenn er neue Leute kennenlernen kann.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="b" onClick="Engine(5, this.value)">Er ist ziemlich unfreundlich zu Menschen, die er nicht kennt.<BR>
+&nbsp; &nbsp; &nbsp;<input type=radio value="c" onClick="Engine(5, this.value)">Er ist nicht gern mit anderen Menschen zusammen.<BR><BR>
+
+</FORM></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

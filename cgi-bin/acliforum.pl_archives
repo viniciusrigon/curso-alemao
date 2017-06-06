@@ -1,0 +1,42 @@
+
+<HTML><HEAD><TITLE>Pra&ccedil;a do Bairro (Assuntos m&ecirc;ses anteriores)</TITLE><LINK HREF="..\aclimacao\acli.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript">
+     <!--
+
+     Normal2 = new Image(); 
+     Normal2.src = "http://www.info.pro.br/aclimacao//02fig/b-home.gif";
+     Highlight2 = new Image(); 
+     Highlight2.src = "http://www.info.pro.br/aclimacao//02fig/b-home-r.gif";
+
+     function Bildwechsel(Bildnr,Bildobjekt)
+     {
+      window.document.images[Bildnr].src = Bildobjekt.src;
+     }
+    //-->
+     //-->
+</script>
+
+</HEAD>
+<BODY background="..\aclimacao\020309\indexbg.jpeg" bgproperties="fixed">
+
+       <TABLE BORDER="0" class="norm11" WIDTH="600" CELLSPACING="0" CELLPADDING="0"><TR><TD ALIGN="LEFT"><IMG SRC="..\aclimacao\02fig\logo-guia-7.gif" ALT="Logo Praca Aclimacao [2kB]" WIDTH="250" HEIGHT="54" BORDER="0"></td><TD ALIGN="RIGHT"><IMG SRC="..\aclimacao\02fig\logo-guia-6.gif" ALT="Logo Guia Aclimacao [2kB]" WIDTH="258" HEIGHT="54" BORDER="0"></TD></TR><TR BGCOLOR="#EFEFEF"><TD VALIGN="MIDDLE" ALIGN="LEFT">&nbsp; &nbsp;<A HREF="acliforum.pl" title="P&aacute;gina inicial">&raquo; P&aacute;gina inicial</A></td><TD ALIGN="RIGHT"><A HREF="..\aclimacao\index.html" onMouseOver="Bildwechsel(2,Highlight2)" onMouseOut="Bildwechsel(2,Normal2)" title="Home Guia Aclima&ccedil;&atilde;o"><IMG SRC="..\aclimacao\02fig\b-home.gif" ALT="HOME" WIDTH="43" HEIGHT="25" BORDER="0"></A></TD></TR></TABLE>
+
+<TABLE class="norm11" BORDER="0" WIDTH="600" CELLSPACING="0" CELLPADDING="15">
+<TR><TD ALIGN="LEFT" VALIGN="TOP"><H1>Assuntos dos m&ecirc;ses anteriores</H1></TD></tr></TABLE>
+
+ <TABLE class="norm11" WIDTH="400" BORDER="0" CELLSPACING="1" CELLPADDING="4"><TR><TD WIDTH="200">&nbsp;</TD><TD ALIGN="RIGHT" WIDTH="100">&nbsp;<B>M&ecirc;s</B></TD><TD ALIGN="LEFT"><B>Ano</B></TD></TR>
+
+<TR>
+                        <TD>&nbsp;</TD><TD ALIGN="RIGHT">
+<A HREF="acliforum.pl_month=200409">Setembro</A></TD>
+<TD ALIGN="LEFT"><A HREF="acliforum.pl_month=200409">2004</A>
+</TD></TR>
+        </TABLE>
+
+
+&nbsp;<p><TABLE class="grau9" BORDER="0" WIDTH="600" CELLSPACING="1" CELLPADDING="7"><TR><TD BGCOLOR="#EFEFEF" ALIGN="CENTER" VALIGN="MIDDLE">&nbsp;</TD></TR><TR><TD ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="hell">&copy; &nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - &copy;  DForum 1.0: <A CLASS="grau" HREF="http://www.dansteinman.com/dforum">http://www.dansteinman.com/dforum</A></SPAN></TR></TABLE>
+
+        </BODY>
+        </HTML>
+

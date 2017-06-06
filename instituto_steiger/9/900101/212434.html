@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00886</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©2001 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form.answer1.value
+var result2=document.form.answer2.value
+var result3=document.form.answer3.value
+var result4=document.form.answer4.value
+var result5=document.form.answer5.value
+var result6=document.form.answer6.value
+var result7=document.form.answer7.value
+var result8=document.form.answer8.value
+var result9=document.form.answer9.value
+var result10=document.form.answer10.value
+var result11=document.form.answer11.value
+var result12=document.form.answer12.value
+var result13=document.form.answer13.value
+var result14=document.form.answer14.value
+var result15=document.form.answer15.value
+var result16=document.form.answer16.value
+var result17=document.form.answer17.value
+var result18=document.form.answer18.value
+var result19=document.form.answer19.value
+var result20=document.form.answer20.value
+var result21=document.form.answer21.value
+var result22=document.form.answer22.value
+var result23=document.form.answer23.value
+var result24=document.form.answer24.value
+    
+if (result1==''){ alert("a) ?");}
+if (result2==''){ alert("a) ?");}
+if (result3==''){ alert("a) ?");}
+if (result4==''){ alert("a) ?");}
+if (result5==''){ alert("a) ?");}
+if (result6==''){ alert("a) ?");}
+if (result7==''){ alert("b) ?");}
+if (result8==''){ alert("b) ?");}
+if (result9==''){ alert("b) ?");}
+if (result10==''){ alert("b) ?");}
+if (result11==''){ alert("b) ?");}
+if (result12==''){ alert("b) ?");}
+if (result13==''){ alert("c) ?");}
+if (result14==''){ alert("c) ?");}
+if (result15==''){ alert("c) ?");}
+if (result16==''){ alert("c) ?");}
+if (result17==''){ alert("d) ?");}
+if (result18==''){ alert("d) ?");}
+if (result19==''){ alert("d) ?");}
+if (result20==''){ alert("d) ?");}
+if (result21==''){ alert("e) ?");}
+if (result22==''){ alert("e) ?");}
+if (result23==''){ alert("e) ?");}
+if (result24==''){ alert("e) ?");}
+
+else {
+	if (result1=='lese'){i++}
+ if (result2=='nen'){i++}
+ if (result3=='liest'){i++}
+ if (result4=='ne'){i++}	
+ if (result5=='liest'){i++}	
+ if (result6=='n'){i++}
+	if (result7=='treffe'){i++}
+ if (result8=='en'){i++}
+ if (result9=='triffst'){i++}
+	if (result10=='ie'){i++}
+ if (result11=='trifft'){i++}
+ if (result12=='as'){i++}
+ if (result13=='nehme'){i++}
+	if (result14=='en'){i++}
+ if (result15=='nimmst'){i++}
+ if (result16=='ie'){i++}
+	if (result17=='nimmt'){i++}
+ if (result18=='as'){i++}
+ if (result19=='habe'){i++}
+	if (result20=='nen'){i++}
+ if (result21=='hast'){i++}
+ if (result22=='ne'){i++}
+	if (result23=='hat'){i++}
+ if (result24=='n'){i++}
+				
+	document.total.score.value = i
+
+if (result1=='lese') document.form.check1.checked = "yes"; else document.form.check1.checked = false;
+if (result2=='nen') document.form.check2.checked = "yes"; else document.form.check2.checked = false;
+if (result3=='liest') document.form.check3.checked = "yes"; else document.form.check3.checked = false;
+if (result4=='ne') document.form.check4.checked = "yes"; else document.form.check4.checked = false;
+if (result5=='liest') document.form.check5.checked = "yes"; else document.form.check5.checked = false;
+if (result6=='n') document.form.check6.checked = "yes"; else document.form.check6.checked = false;
+if (result7=='treffe') document.form.check7.checked = "yes"; else document.form.check7.checked = false;
+if (result8=='en') document.form.check8.checked = "yes"; else document.form.check8.checked = false;
+if (result9=='triffst') document.form.check9.checked = "yes"; else document.form.check9.checked = false;
+if (result10=='ie') document.form.check10.checked = "yes"; else document.form.check10.checked = false;
+if (result10=='trifft') document.form.check11.checked = "yes"; else document.form.check11.checked = false;
+if (result12=='as') document.form.check12.checked = "yes"; else document.form.check12.checked = false;
+if (result13=='nehme') document.form.check13.checked = "yes"; else document.form.check13.checked = false;
+if (result14=='en') document.form.check14.checked = "yes"; else document.form.check14.checked = false;
+if (result15=='nimmst') document.form.check15.checked = "yes"; else document.form.check15.checked = false;
+if (result16=='ne') document.form.check16.checked = "yes"; else document.form.check16.checked = false;
+if (result17=='nimmt') document.form.check17.checked = "yes"; else document.form.check17.checked = false;
+if (result18=='n') document.form.check18.checked = "yes"; else document.form.check18.checked = false;
+if (result19=='habe') document.form.check19.checked = "yes"; else document.form.check19.checked = false;
+if (result20=='nen') document.form.check20.checked = "yes"; else document.form.check20.checked = false;
+if (result21=='hast') document.form.check21.checked = "yes"; else document.form.check21.checked = false;
+if (result22=='ne') document.form.check22.checked = "yes"; else document.form.check22.checked = false;
+if (result23=='hat') document.form.check23.checked = "yes"; else document.form.check23.checked = false;
+if (result24=='n') document.form.check24.checked = "yes"; else document.form.check24.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00886</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR>
+<TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Erg&auml;nzen Sie Verb und Artikel.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Verben mit Akkusativerg&auml;nzung</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="5" BORDER="0"><TR>
+<form name="form"><TD ALIGN="LEFT" VALIGN="TOP"><BR>
+
+a) &nbsp; <SPAN class="gross"><B>Was lesen?</B></SPAN><UL>
+<LI>Ich <INPUT TYPE="text" name="answer1" VALUE="" SIZE="5"> ei<INPUT TYPE="text" name="answer2" VALUE="" SIZE="2"> Brief <SPAN class="kleinh">(m)</SPAN>. <input type="checkbox" name="check1"><input type="checkbox" name="check2">
+<LI>Du <INPUT TYPE="text" name="answer3" VALUE="" SIZE="5"> ei<INPUT TYPE="text" name="answer4" VALUE="" SIZE="2"> Zeitschrift <SPAN class="kleinh">(f)</SPAN>. <input type="checkbox" name="check3"><input type="checkbox" name="check4">
+<LI>Er <INPUT TYPE="text" name="answer5" VALUE="" SIZE="5"> ei<INPUT TYPE="text" name="answer6" VALUE="" SIZE="2"> Buch <SPAN class="kleinh">(n)</SPAN>. <input type="checkbox" name="check5"><input type="checkbox" name="check6"></UL><BR>
+
+b) &nbsp; <SPAN class="gross"><B>Wen treffen?</B></SPAN><UL>
+<LI>Ich <INPUT TYPE="text" name="answer7" VALUE="" SIZE="5"> d<INPUT TYPE="text" name="answer8" VALUE="" SIZE="2"> Taxifahrer <SPAN class="kleinh">(m)</SPAN>. <input type="checkbox" name="check7"><input type="checkbox" name="check8">
+<LI>Du <INPUT TYPE="text" name="answer9" VALUE="" SIZE="5"> d<INPUT TYPE="text" name="answer10" VALUE="" SIZE="2"> Freundin <SPAN class="kleinh">(f)</SPAN>. <input type="checkbox" name="check9"><input type="checkbox" name="check10">
+<LI>Er <INPUT TYPE="text" name="answer11" VALUE="" SIZE="5"> d<INPUT TYPE="text" name="answer12" VALUE="" SIZE="2"> Kind <SPAN class="kleinh">(n)</SPAN>. <input type="checkbox" name="check11"><input type="checkbox" name="check12"></UL>
+
+</TD>
+
+<TD ALIGN="LEFT" VALIGN="TOP"><BR>
+
+c) &nbsp; <SPAN class="gross"><B>Was nehmen?</B></SPAN><UL>
+<LI>Ich <INPUT TYPE="text" name="answer13" VALUE="" SIZE="5"> d<INPUT TYPE="text" name="answer14" VALUE="" SIZE="2"> Zug <SPAN class="kleinh">(m)</SPAN>. <input type="checkbox" name="check13"><input type="checkbox" name="check14">
+<LI>Du <INPUT TYPE="text" name="answer15" VALUE="" SIZE="5"> d<INPUT TYPE="text" name="answer16" VALUE="" SIZE="2"> Strassenbahn <SPAN class="kleinh">(f)</SPAN>. <input type="checkbox" name="check15"><input type="checkbox" name="check16">
+<LI>Er <INPUT TYPE="text" name="answer17" VALUE="" SIZE="5"> d<INPUT TYPE="text" name="answer18" VALUE="" SIZE="2"> Flugzeug <SPAN class="kleinh">(n)</SPAN>. <input type="checkbox" name="check17"><input type="checkbox" name="check18"></UL><BR>
+
+d) &nbsp; <SPAN class="gross"><B>Was haben?</B></SPAN><UL>
+<LI>Ich <INPUT TYPE="text" name="answer19" VALUE="" SIZE="5"> kei<INPUT TYPE="text" name="answer20" VALUE="" SIZE="2"> Aufenthalt <SPAN class="kleinh">(m)</SPAN>. <input type="checkbox" name="check19"><input type="checkbox" name="check20">
+<LI>Du <INPUT TYPE="text" name="answer21" VALUE="" SIZE="5"> kei<INPUT TYPE="text" name="answer22" VALUE="" SIZE="2"> Zeit <SPAN class="kleinh">(f)</SPAN>. <input type="checkbox" name="check21"><input type="checkbox" name="check22">
+<LI>Er <INPUT TYPE="text" name="answer23" VALUE="" SIZE="5"> kei<INPUT TYPE="text" name="answer24" VALUE="" SIZE="2"> Kursbuch <SPAN class="kleinh">(n)</SPAN>. <input type="checkbox" name="check23"><input type="checkbox" name="check24"></UL>
+
+</TD></form></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> von 24 richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="113434.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

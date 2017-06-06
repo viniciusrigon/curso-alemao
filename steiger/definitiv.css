@@ -1,0 +1,57 @@
+body { background-color:#FFFFFF; font-family:Verdana,Geneva,Arial,sans-serif; margin-left:30px; margin-top:30px; margin-right:10px; }
+
+h1   { font-size:12px; color: #000000; line-height: 14px; letter-spacing:0.01cm; }
+h2   { font-size:12px; color: #000000; line-height: 14px; letter-spacing:0.01cm; }
+.titel   { font-size:12px; color: #000000; font-weight:bolder; line-height: 14px; letter-spacing:0.03cm; }
+.titelt  { font-size:32px; font-family:Times,serif; line-height: 1em; font-weight:normal; color:#000000; letter-spacing:0.01cm; }
+
+.norm12  { color: #000000; font-size: 12px; line-height: 18px; letter-spacing:0.01cm; }
+.norm11  { color: #000000; font-size: 11px; line-height: 18px; letter-spacing:0.01cm; }
+.norm11p { color: #000000; font-size: 11px; line-height: 15px; letter-spacing:0.01cm; }
+.norm9   { color: #000000; font-size: 9px; line-height: 14px; font-weight:normal; letter-spacing:0.01cm; }
+.shell   { color: #DEDEDE; }
+.hell    { color: #CCCCCC; }
+.rot     { color:#FF0000; }
+.grau    { color: #999999; }
+.grau9   { color: #999999; font-size: 9px; letter-spacing:0.01cm; }
+.weiss   { color: #FFFFFF; }
+
+.ez20    { margin-left:20px; margin-top: 0px; margin-bottom: 6px; }
+.ez50    { margin-left:50px; }
+.ez100   { margin-left:100px; }
+.ez120   { margin-left:120px; }
+.ez150   { margin-left:150px; }
+.ez250   { margin-left:250px; }
+
+.invisible { display: visible; } 
+
+li { list-style-type: disc; margin-left: 30px; }
+ul { margin-left: 0px; margin-top: 0px; }
+
+.form1   { color: #000000; border-left: #999999 1px dotted; border-right: #999999 1px dotted; border-top: #999999 1px dotted; border-bottom: #999999 1px dotted; background-color:#ffffff; font-size: 11px; font-family:Verdana; letter-spacing:0.01cm; }
+
+address  { color: #999999; font-size: 9px; line-height: 14px; letter-spacing:0.01cm; font-style:normal; }
+
+hr       { line-height:1; color:#DEDEDE }
+
+a:link { color:#FF0000; text-decoration:none; }
+a:visited {color:#FF6363; text-decoration:none; }
+a:hover {color:#0000FF; text-decoration:none; }
+a:active {color:#FF0000; text-decoration:none; }
+
+a.nav:link { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:visited { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:hover { color:#FF0000; text-decoration:none; font-size: 11px; }
+a.nav:active { color:#FF0000; text-decoration:none; font-size: 11px; }
+
+a.ext:link { color:#999999; text-decoration:underline }
+a.ext:visited {color:#999999; text-decoration:underline }
+a.ext:hover {color:#0000FF; text-decoration:underline }
+a.ext:active {color:#FF0000; text-decoration:underline }
+
+a.klein:link { color:#999999; text-decoration:none; font-size: 9px; line-height: 14px; }
+a.klein:visited {color:#999999; text-decoration:none; font-size: 9px; line-height: 14px; }
+a.klein:hover {color:#FF0000; text-decoration:none; font-size: 9px; line-height: 14px; }
+a.klein:active {color:#FF0000; text-decoration:none; font-size: 9px; line-height: 14px; }
+
+/* copyright markus steiger 04.06.2002 */

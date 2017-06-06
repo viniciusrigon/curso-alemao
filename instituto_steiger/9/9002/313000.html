@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00789</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "Im";
+ans[2] = "Nach";
+ans[3] = "dem";
+ans[4] = "vor";
+ans[5] = "dem";
+ans[6] = "Nach";
+ans[7] = "der";
+ans[8] = "Am";
+ans[9] = "Im";
+ans[10] = "Waehrend";
+ans[11] = "den";
+
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 11) {
+alert("!");
+}
+if (score >= 9 && score <= 11) {
+alert("Gut! Jetzt kommt Teil II!")
+self.location="313701.html"
+
+}
+else {
+alert("Sie muessen 9 Fragen richtig beantworten um weiterzufahren.")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00789</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. <B>Pr&auml;positionen</B>: "Nach", "vor", "in", "waehrend", "bei" oder "an"? Was passt? <B>Erg&auml;nzen Sie auch die Artikel</B>.<BR>Benutzen Sie die Tabulatortaste um zum n&auml;chsten Feld zu gelangen. Mit 9 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<FORM>
+
+a) &nbsp; <input type=text size=8 value="" onChange="Engine(1, this.value)"> Sommer sitzen wir abends oft im Garten und grillen.<BR><BR>
+
+b) &nbsp; <input type=text size=8 value="" onChange="Engine(2, this.value)"> <input type=text size=8 value="" onChange="Engine(3, this.value)"> Abendessen d&uuml;rfen die Kinder nicht mehr spielen. Sie m&uuml;ssen dann sofort ins Bett gehen.<BR><BR>
+
+c) &nbsp; Meine Mutter passt genau auf, dass ich mir <input type=text size=8 value="" onChange="Engine(4, this.value)">  <input type=text size=8 value="" onChange="Engine(5, this.value)"> Essen immer die H&auml;nde wasche.<BR><BR>
+
+d) &nbsp; <input type=text size=8 value="" onChange="Engine(6, this.value)"> <input type=text size=8 value="" onChange="Engine(7, this.value)"> Arbeit fahre ich sofort nach Hause.<BR><BR>
+
+e) &nbsp; <input type=text size=8 value="" onChange="Engine(8, this.value)"> Abend sehen meine Eltern meistens fern.<BR><BR>
+
+f) &nbsp; <input type=text size=8 value="" onChange="Engine(9, this.value)"> n&auml;chsten Jahr bekommen wir eine gr&ouml;ssere Wohnung. Dann wollen wir auch Kinder haben.<BR><BR>
+
+g) &nbsp; Mein Vater sieht gerne Fussball. <input type=text size=8 value="" onChange="Engine(10, this.value)"> <input type=text size=8 value="" onChange="Engine(11, this.value)"> Sportsendungen darf ich ihn deshalb nicht st&ouml;ren.
+
+</FORM>
+
+</TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

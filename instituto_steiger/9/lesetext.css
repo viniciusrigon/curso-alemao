@@ -1,0 +1,30 @@
+body { font-family:Verdana,Geneva,Arial,sans-serif; margin-left:10px; margin-top:10px; letter-spacing:0.01cm; }
+
+h2  { font-family:Times,serif; font-size:32px; font-weight:normal; margin-top:20px; color:#000000; letter-spacing:0.01cm; }
+
+.norm11  { font-size:11px; color: #000000; letter-spacing:0.01cm; }
+.weiss  { color:#FFFFFF; }
+.norm12  { color: #000000; font-size: 12px; line-height: 18px; letter-spacing:0.01cm; }
+.grau9   { color: #CCCCCC; font-size: 9px; letter-spacing:0.01cm; }
+
+#container {left: 97px; top: 95px; height: 220px; width: 430px; visibility: hidden; overflow: hidden; clip: rect(0px 430px 220px 0px); position: absolute; }
+#content {left: 0px; top: 80px; position: absolute; }
+#foot {left: 10px; top: 390px; width: 580px; position: absolute; }
+#tradu {left: 10px; top: 330px; width: 580px; background-color: #FFFFDD; POSITION: absolute; padding: 10px;  border: 0px dotted black; font-size:11px; color: #000000; letter-spacing:0.01cm; }
+
+#top  {left: 565px; top: 150px; width: 20px; background-color: #EFEFEF; POSITION: absolute; padding: 1px; }
+#down {left: 565px; top: 260px; width: 20px; background-color: #EFEFEF; POSITION: absolute; padding: 1px; }
+
+a { letter-spacing:0.01cm; }
+
+a.nav:link { color:#666666; text-decoration:none; }
+a.nav:visited {color:#666666; text-decoration:none; }
+a.nav:hover {color:#0000FF; text-decoration:none; }
+a.nav:active {color:#FF0000; text-decoration:none; }
+
+a.vokl:link { color:#666666; cursor:help; background-color:#ffffff; text-decoration:none }
+a.vokl:visited {color:#666666; background-color:#ffffff; text-decoration:none }
+a.vokl:hover {color:#000000; background-color:#FFFFDD; text-decoration:none }
+a.vokl:active {color:#FF0000; background-color:#CCCCCC; text-decoration:none }
+
+/* copyright markus steiger 20.01.2002 */

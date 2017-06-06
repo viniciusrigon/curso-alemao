@@ -1,0 +1,63 @@
+
+<HTML><HEAD><TITLE>Pra&ccedil;a do Bairro - [Enviar Resposta]</TITLE><LINK HREF="..\aclimacao\acli.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript">
+     <!--
+
+     Normal2 = new Image(); 
+     Normal2.src = "http://www.info.pro.br/aclimacao//02fig/b-home.gif";
+     Highlight2 = new Image(); 
+     Highlight2.src = "http://www.info.pro.br/aclimacao//02fig/b-home-r.gif";
+
+     function Bildwechsel(Bildnr,Bildobjekt)
+     {
+      window.document.images[Bildnr].src = Bildobjekt.src;
+     }
+    //-->
+     //-->
+</script>
+
+</HEAD>
+<BODY background="..\aclimacao\020309\indexbg.jpeg" bgproperties="fixed">
+
+        
+<TABLE BORDER="0" class="norm11" WIDTH="600" CELLSPACING="0" CELLPADDING="0"><TR><TD ALIGN="LEFT"><IMG SRC="..\aclimacao\02fig\logo-guia-7.gif" ALT="Logo Praca Aclimacao [2kB]" WIDTH="250" HEIGHT="54" BORDER="0"></td><TD ALIGN="RIGHT"><IMG SRC="..\aclimacao\02fig\logo-guia-6.gif" ALT="Logo Guia Aclimacao [2kB]" WIDTH="258" HEIGHT="54" BORDER="0"></TD></TR><TR BGCOLOR="#EFEFEF"><TD VALIGN="MIDDLE" ALIGN="LEFT">&nbsp; &nbsp;<A HREF="acliforum.pl" title="P&aacute;gina inicial">&raquo; P&aacute;gina inicial</A></td><TD ALIGN="RIGHT"><A HREF="..\aclimacao\index.html" onMouseOver="Bildwechsel(2,Highlight2)" onMouseOut="Bildwechsel(2,Normal2)" title="Home Guia Aclima&ccedil;&atilde;o"><IMG SRC="..\aclimacao\02fig\b-home.gif" ALT="HOME" WIDTH="43" HEIGHT="25" BORDER="0"></A></TD></TR></TABLE>
+
+<TABLE class="norm11" BORDER="0" WIDTH="600" CELLSPACING="0" CELLPADDING="15">
+<TR><TD ALIGN="LEFT" VALIGN="TOP"><H1>Adicionar Coment&aacute;rio</H1></TD></tr></TABLE>
+
+<FORM NAME="acliforum" ACTION="acliforum.pl_preview" METHOD="POST">
+<INPUT TYPE="HIDDEN" NAME="date" VALUE="10/10/2004">
+<INPUT TYPE="HIDDEN" NAME="headerfile" VALUE="200409">
+<INPUT TYPE="HIDDEN" NAME="subject" VALUE="Re: OPORTUNIDADE DE TRABALHO">
+<INPUT TYPE="HIDDEN" NAME="reply" VALUE="1">
+
+        <TABLE  class="grau11" BORDER="0" CELLSPACING="0" CELLPADDING="1">
+        <TR><TD WIDTH="150" ALIGN="RIGHT">Nome &nbsp;</TD><TD><INPUT TYPE=TEXT class="form1" NAME="name" SIZE=35 MAXLENGTH=35></TD></TR>
+        <TR><TD ALIGN="RIGHT">E-mail &nbsp;</TD><TD><INPUT TYPE=TEXT class="form1" NAME="email" SIZE=35> (optional)</TD></TR>
+        <TR><TD ALIGN="RIGHT">Assunto &nbsp;</TD><TD><INPUT TYPE="Text" class="form1" NAME="subject" SIZE=42 MAXLENGTH=42></TD></TR>
+        <TR><TD ALIGN="RIGHT" VALIGN="TOP">Mensagem &nbsp;</TD><TD VALIGN="TOP"><TEXTAREA COLS=50 ROWS=10 class="form1" NAME="body" WRAP="Physical"></TEXTAREA></TD></TR>
+        <TR><TD>&nbsp;</TD><TD><BR><INPUT TYPE="Submit" VALUE=" Confirmar Mensagem "></TD></TR>
+     
+        </TABLE>
+
+  </FORM>
+<B>Mensagem original</B>
+
+
+<P class="norm11"><BR>De: Fernanda (<A HREF="
+mailto:icarus@macbbs.com.br" class="ext">icarus@macbbs.com.br</A>)<BR>Data: 10/09/2004
+<PRE class="norm12">
+Flexibilidade de horários, excelente oportunidade de
+ganhos.
+Treinamento, Cursos, Material de Apoio Gratuito,
+Acompanhamento ao Trabalho e Ótima comissão. Praça da
+República, nº 270 Cj 701 - São Paulo   Seg a sexta, as 8:30h
+Giovanni ou Fernanda
+
+</PRE>
+&nbsp;<p><TABLE class="grau9" BORDER="0" WIDTH="600" CELLSPACING="1" CELLPADDING="7"><TR><TD BGCOLOR="#EFEFEF" ALIGN="CENTER" VALIGN="MIDDLE">&nbsp;</TD></TR><TR><TD ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="hell">&copy; &nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - &copy;  DForum 1.0: <A CLASS="grau" HREF="http://www.dansteinman.com/dforum">http://www.dansteinman.com/dforum</A></SPAN></TR></TABLE>
+
+        </BODY>
+        </HTML>
+

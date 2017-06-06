@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00861</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "wohnt";
+ans[2] = "steht";
+ans[3] = "auf";
+ans[4] = "faehrt";
+ans[5] = "nimmt";
+ans[6] = "liest";
+ans[7] = "findet";
+ans[8] = "faehrt";
+ans[9] = "ab";
+
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig!\n\nIhre Punkte: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 9) {
+alert("!");
+}
+if (score >= 7 && score <= 9) {
+alert("Gut! Jetzt kommt Teil II!")
+self.location="320213.html"
+
+}
+else {
+alert("Sie muessen 7 Fragen richtig beantworten um weiterzufahren.")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00861</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. <B>Erg&auml;nzen Sie die Verben</B><BR>(&auml; = "ae" etc.) Benutzen Sie die Tabulatortaste um zum n&auml;chsten Feld zu gelangen. Mit 7 von 9 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von III</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="30" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<FORM>
+
+1) &nbsp; <SPAN class="kleinh">(wohnen)</SPAN> &nbsp; Herr Dolder <input type=text  size=8 value="" onChange="Engine(1, this.value)"> in K&ouml;ln.<BR><BR>
+2) &nbsp; <SPAN class="kleinh">(aufstehen)</SPAN> &nbsp; Heute <input type=text  size=8 value="" onChange="Engine(2, this.value)"> er fr&uuml;h <input type=text  size=8 value="" onChange="Engine(3, this.value)">.<BR><BR>
+3) &nbsp; <SPAN class="kleinh">(fahren)</SPAN> &nbsp; Er <input type=text  size=8 value="" onChange="Engine(4, this.value)"> nach Frankfurt.<BR><BR>
+4) &nbsp; <SPAN class="kleinh">(nehmen, lesen)</SPAN> &nbsp; Er <input type=text  size=8 value="" onChange="Engine(5, this.value)"> und <input type=text  size=8 value="" onChange="Engine(6, this.value)"> den Fahrplan.<BR><BR>
+5) &nbsp; <SPAN class="kleinh">(finden)</SPAN> &nbsp; Im Kursbuch <input type=text  size=8 value="" onChange="Engine(7, this.value)"> er einen Regionalexpress (RE).<BR><BR>
+6) &nbsp; <SPAN class="kleinh">(abfahren)</SPAN> &nbsp; Der Regionalexpress <input type=text  size=8 value="" onChange="Engine(8, this.value)"> um 9.44 Uhr von K&ouml;ln <input type=text  size=8 value="" onChange="Engine(9, this.value)">.
+
+</FORM></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp;Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

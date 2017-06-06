@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00463</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form1.answer2.value
+var result3=document.form1.answer3.value
+var result4=document.form1.answer4.value
+var result5=document.form1.answer5.value
+    
+if (result1==''){ alert("a) ?");}
+if (result2==''){ alert("b) ?");}
+if (result3==''){ alert("b) ?");}
+if (result4==''){ alert("c) ?");}
+if (result5==''){ alert("d) ?");}
+
+else {
+	if (result1=='heisst'){i++}
+ if (result2=='heisst'){i++}
+ if (result3=='heisse'){i++}
+ if (result4=='heissen'){i++}	
+ if (result5=='heissen'){i++}	
+				
+	document.total.score.value = i
+
+if (result1=='heisst') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='heisst') document.form1.check2.checked = "yes"; else document.form1.check2.checked = false;
+if (result3=='heisse') document.form1.check3.checked = "yes"; else document.form1.check3.checked = false;
+if (result4=='heissen') document.form1.check4.checked = "yes"; else document.form1.check4.checked = false;
+if (result5=='heissen') document.form1.check5.checked = "yes"; else document.form1.check5.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00463</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR>
+<TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Erg&auml;nzen Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">heissen</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<form name="form1">
+
+a) &nbsp; Die Hauptstadt von Frankreich <INPUT TYPE="text" name="answer1" VALUE="" SIZE="8"> Paris.
+<input type="checkbox" name="check1"><BR><BR>
+
+b) &nbsp; Wie <INPUT TYPE="text" name="answer2"  VALUE="" SIZE="8"> du? Ich <INPUT TYPE="text" name="answer3" VALUE="" SIZE="8"> Gerhard.
+<input type="checkbox" name="check2"><input type="checkbox" name="check3"><BR><BR>
+
+c) &nbsp; Die Sch&uuml;ler <INPUT TYPE="text" name="answer4"  VALUE="" SIZE="8"> John und Jack.
+<input type="checkbox" name="check4"><BR><BR>
+
+d) &nbsp; Wie <INPUT TYPE="text" name="answer5"  VALUE="" SIZE="8"> Sie?
+<input type="checkbox" name="check5">
+
+</form></TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> von 5 richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="345888.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

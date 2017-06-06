@@ -1,0 +1,53 @@
+body { background-color:#FFFFFF; font-family:Verdana,Geneva,Arial,sans-serif; margin-left:30px; margin-top:30px; margin-right:10px; }
+
+
+a{font-weight: color: #5B3815; text-decoration: none;}
+a:hover, a:active{color: #C4B7AB;}
+#menunine{
+color: silver;
+font:11px;
+margin: 0px 0px 20px 0px;
+padding: 14px 14px 14px 14px;
+border: 1px outset #DADADA;
+width: auto;
+background-color : #B0B0B0;
+text-align: left;
+}
+#menunine ul, #menunine li{
+display: inline;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+#menunine li a, #menunine li a:hover, #menunine li a:active { 
+display: inline;
+text-decoration: none; 
+color: #000;
+background-color : transparent;
+margin: 1px 1px 1px 1px;
+padding: 8px 10px 8px 10px;
+border: 1px solid #B0B0B0;
+text-align: center;
+font-weight: normal;
+}
+#menunine li a:hover, #menunine li a:active { 
+border-top: solid 1px #e0e0e0;
+border-right: solid 1px #888;
+border-bottom: solid 1px #888;
+border-left: solid 1px #e0e0e0;
+}
+#menunine li a:active { 
+background-color: #dedede;
+border-top: solid 1px #888;
+border-right: solid 1px #e0e0e0;
+border-bottom: solid 1px #e0e0e0;
+border-left: solid 1px #888;
+}
+
+.hell    { color: #CCCCCC; }
+.norm9   { color: #000000; font-size: 9px; line-height: 14px; font-weight:normal; letter-spacing:0.01cm; }
+
+a.nav:link { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:visited { color:#3131CE; text-decoration:none; font-size: 11px; }
+a.nav:hover { color:#FF0000; text-decoration:none; font-size: 11px; }
+a.nav:active { color:#FF0000; text-decoration:none; font-size: 11px; }

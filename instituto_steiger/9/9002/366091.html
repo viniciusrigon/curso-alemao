@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00518</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "c";
+ans[2] = "a";
+ans[3] = "c";
+ans[4] = "b";
+ans[5] = "b";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch! - Errado!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig! - Certo!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 5) {
+alert("!");
+}
+if (score >= 4 && score <= 5) {
+alert("Gut! Jetzt kommt Teil II!\nBom! Agora vem a parte II.")
+self.location="366213.html"
+
+}
+else {
+alert("Sie muessen 4 Fragen richtig beantworten um weiterzufahren.\nPrecisa de 4 respostas certas para continuar!")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;Aufgabe</SPAN></TD><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="kleinw">id: 00518</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR><TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Welcher Satz passt?. Mit 4 von 5 richtigen Antworten kommen Sie zu Teil II.</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">Teil I </SPAN>von II</TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="10" CELLPADDING="10" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP"><BR>
+
+<FORM><SPAN class="gross">
+
+
+1) &nbsp; Kurt erz&auml;hlt immer so langweilig. Ich kann ihm einfach nicht zuh&ouml;ren.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="a" onClick="Engine(1, this.value)">Wenn Kurt erz&auml;hlt, h&ouml;re ich schlecht.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(1, this.value)">Wenn Kurt erz&auml;hlt, denke ich an etwas anderes.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="c" onClick="Engine(1, this.value)">Ich finde es langweilig, Kurt zuzuh&ouml;ren.<BR><BR>
+
+2) &nbsp; Dieses Wort kann ich nicht richtig aussprechen. Dieses Wort ...<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="a" onClick="Engine(2, this.value)">kann ich nicht fehlerfrei sagen.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(2, this.value)">verstehe ich nicht.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="c" onClick="Engine(2, this.value)">habe ich noch nie geh&ouml;rt.<BR><BR>
+
+3) &nbsp; Ich habe morgens nie Lust mich zu waschen.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="a" onClick="Engine(3, this.value)">Ich habe morgens kein Wasser im Bad.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(3, this.value)">Wasser interessiert mich morgens nicht.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="c" onClick="Engine(3, this.value)">Ich wasche mich morgens nicht gern.<BR><BR>
+
+4) &nbsp; Wenn mein Mann ins Bett geht, vergisst er immer den Fernseher auszumachen.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="a" onClick="Engine(4, this.value)">Wenn der Fernseher an ist, geht mein Mann ins Bett.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(4, this.value)">Wenn mein Mann ins Bett geht, macht er nie den Fernseher aus.<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="c" onClick="Engine(4, this.value)">Wenn mein Mann fernsieht, vergisst er immer ins Bett zu gehen.<BR><BR>
+
+5) &nbsp; K&ouml;nnen Sie das best&auml;tigen?<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="a" onClick="Engine(5, this.value)">Was denken Sie dar&uuml;ber?<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="b" onClick="Engine(5, this.value)">Sagen Sie auch, dass das so ist?<BR>
+&nbsp; &nbsp; &nbsp; <input type=radio value="c" onClick="Engine(5, this.value)">Halten Sie das f&uuml;r wichtig?<BR><BR>
+
+</SPAN></FORM></TD></TR></TABLE>
+
+<FORM name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh">| <A HREF="javascript:location.reload()" TITLE="Tentar de novo" class="grau">noch einmal</A> | <A HREF="../../..\form\999673.html" TITLE="Frage - Pergunta" TARGET="Frage" class="grau">@ - ?</A> | <A HREF="..\95\567804.html" TITLE="Como funciona?" class="grau">Hilfe</A> |</SPAN></TD></TR></TABLE></FORM><BR><BR><BR>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

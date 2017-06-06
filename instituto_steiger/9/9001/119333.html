@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00398</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form1.answer2.value
+var result3=document.form1.answer3.value
+var result4=document.form1.answer4.value
+var result5=document.form1.answer5.value
+var result6=document.form1.answer6.value
+var result7=document.form1.answer7.value
+var result8=document.form1.answer8.value
+var result9=document.form1.answer9.value
+var result10=document.form1.answer10.value
+var result11=document.form1.answer11.value
+var result12=document.form1.answer12.value
+    
+if (result1==''){ alert("a) ?");}
+if (result2==''){ alert("a) ?");}
+if (result3==''){ alert("b) ?");}
+if (result4==''){ alert("b) ?");}
+if (result5==''){ alert("c) ?");}
+if (result6==''){ alert("c) ?");}
+if (result7==''){ alert("d) ?");}
+if (result8==''){ alert("d) ?");}
+if (result9==''){ alert("e) ?");}
+if (result10==''){ alert("f) ?");}
+if (result11==''){ alert("g) ?");}
+if (result12==''){ alert("g) ?");}
+
+else {
+	if (result1=='Sind'){i++}
+ if (result2=='sind'){i++}
+ if (result3=='Sind'){i++}
+ if (result4=='bin'){i++}	
+ if (result5=='ist'){i++}	
+ if (result6=='ist'){i++}	
+ if (result7=='bist'){i++}	
+ if (result8=='ist'){i++}	
+ if (result9=='seid'){i++}	
+ if (result10=='sind'){i++}	
+ if (result11=='bin'){i++}	
+ if (result12=='bist'){i++}	
+				
+	document.total.score.value = i
+
+if (result1=='Sind') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='sind') document.form1.check2.checked = "yes"; else document.form1.check2.checked = false;
+if (result3=='Sind') document.form1.check3.checked = "yes"; else document.form1.check3.checked = false;
+if (result4=='bin') document.form1.check4.checked = "yes"; else document.form1.check4.checked = false;
+if (result5=='ist') document.form1.check5.checked = "yes"; else document.form1.check5.checked = false;
+if (result6=='ist') document.form1.check6.checked = "yes"; else document.form1.check6.checked = false;
+if (result7=='bist') document.form1.check7.checked = "yes"; else document.form1.check7.checked = false;
+if (result8=='ist') document.form1.check8.checked = "yes"; else document.form1.check8.checked = false;
+if (result9=='seid') document.form1.check9.checked = "yes"; else document.form1.check9.checked = false;
+if (result10=='sind') document.form1.check10.checked = "yes"; else document.form1.check10.checked = false;
+if (result11=='bin') document.form1.check11.checked = "yes"; else document.form1.check11.checked = false;
+if (result12=='bist') document.form1.check12.checked = "yes"; else document.form1.check12.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00398</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR>
+<TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Schreiben Sie:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="kleinh">Verb</SPAN> &nbsp; <SPAN class="titel">sein</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD WIDTH="580" ALIGN="LEFT" VALIGN="TOP">
+
+<form name="form1"><SPAN class="gross">
+
+a) &nbsp; <INPUT TYPE="text" name="answer1" VALUE="Sind" SIZE="6"> Sie aus Berlin? - Nein, wir <INPUT TYPE="text" name="answer2" SIZE="6"> nicht aus Berlin. <input type="checkbox" name="check1"><input type="checkbox" name="check2"><BR><BR>
+
+b) &nbsp; <INPUT TYPE="text" name="answer3" SIZE="6"> Sie der Lehrer? - Nein, ich <INPUT TYPE="text" name="answer4" SIZE="6"> der Sch&uuml;ler. <input type="checkbox" name="check3"><input type="checkbox" name="check4"><BR><BR>
+
+c) &nbsp; Wo <INPUT TYPE="text" name="answer5" SIZE="6"> das Buch? - Das Buch <INPUT TYPE="text" name="answer6" SIZE="6"> hier. <input type="checkbox" name="check5"><input type="checkbox" name="check6"><BR><BR>
+
+d) &nbsp; Du <INPUT TYPE="text" name="answer7" SIZE="6"> aus Brasilien, Victor <INPUT TYPE="text" name="answer8" SIZE="6"> aus Mexiko. <input type="checkbox" name="check7"><input type="checkbox" name="check8"><BR><BR>
+
+e) &nbsp; Ihr <INPUT TYPE="text" name="answer9" SIZE="6"> in Deutschland. <input type="checkbox" name="check9"><BR><BR>
+
+f) &nbsp; Kerstin und Birgit <INPUT TYPE="text" name="answer10" SIZE="6"> fleissig. <input type="checkbox" name="check10"><BR><BR>
+
+g) &nbsp; Ich <INPUT TYPE="text" name="answer11" SIZE="6"> Gustav, du <INPUT TYPE="text" name="answer12" SIZE="6"> Paul. <input type="checkbox" name="check11"><input type="checkbox" name="check12">
+
+</SPAN></form></TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="654322.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>

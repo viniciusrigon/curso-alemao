@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>Markus Steiger: Farbstudien</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="430901.css" rel=stylesheet title="steiger" type="text/css"><LINK REL="home" HREF="..\index.html">
+
+<script language="JavaScript">
+function colorchange()
+{
+ window.document.bgColor = document.Formular.bgcol.value;
+ document.all.Element1.style.backgroundColor = document.Formular.elem1.value;
+ document.all.Element2.style.backgroundColor = document.Formular.elem2.value;
+ document.all.Element3.style.backgroundColor = document.Formular.elem3.value;
+ document.all.Text.style.color = document.Formular.text.value;
+ document.all.Text2.style.color = document.Formular.text.value;
+ document.all.Text3.style.color = document.Formular.text.value;
+ document.all.Text4.style.color = document.Formular.text.value;
+}
+
+function Standard()
+{
+document.Formular.bgcol.value = '#dddddd';
+document.Formular.elem1.value = '#aacc99';
+document.Formular.elem2.value = '#cccc66';
+document.Formular.elem3.value = '#abcdef';
+document.Formular.text.value = '#000000';
+}
+
+function toggleVisibility(id, NNtype, IEtype, WC3type) {
+    if (document.getElementById) {
+        eval("document.getElementById(id).style.visibility = \"" + WC3type + "\"");
+    } else {
+        if (document.layers) {
+            document.layers[id].visibility = NNtype;
+        } else {
+            if (document.all) {
+                eval("document.all." + id + ".style.visibility = \"" + IEtype + "\"");
+            }
+        }
+    }
+}
+
+</script>
+
+</head>
+
+<body onLoad="Standard();">
+
+<div id="Element1" style="position:relative; float: left; padding:10px; left:100px; top:100px; visibility:show; visibility:visible; border: 0px none; text-align:left; height: 200px; width: 200px; z-index:1;"><div id="Text"><b>Element 1</b>: Chamam-se<br>caracteres, individualmente,<br>&agrave;s letras, n&uacute;meros ou sinais<br>de pontua&ccedil;&atilde;o.</div></div>
+
+<div id="Element2" style="position:relative; float: left; padding:10px; left:300px; top:100px; visibility:show; visibility:visible; border: 0px none; text-align:left; height: 200px; width: 200px; z-index:2;"><div id="Text2"><b>Element 2</b>: Chamam-se<br>caracteres, individualmente,<br>&agrave;s letras, n&uacute;meros ou sinais<br>de pontua&ccedil;&atilde;o.</div></div>
+
+<div id="Element3" style="position:relative; float: left; padding:10px; left:500px; top:100px; visibility:show; visibility:visible; border: 0px none; text-align:left; height: 200px; width: 200px; z-index:3;"><div id="Text3"><b>Element 3</b>: Chamam-se<br>caracteres, individualmente,<br>&agrave;s letras, n&uacute;meros ou sinais<br>de pontua&ccedil;&atilde;o.</div></div>
+
+<center><div id="definitionen" style="position:relative; float: left; padding:10px; left:0px; top:0px; visibility:show; visibility:visible; background-color: transparent; layer-background-color: transparent; border: 0px solid #ffffff; text-align:center; height: 220px; width: 700px; z-index:4;"><p><table width="640" class="norm11" border="0" cellspacing="0" cellpadding="1"><tr><form name="Formular"><td rowspan="2" align="left" valign="top"><div id="Text4"><b>Background</b>: Chamam-se<br>caracteres, individualmente,<br>&agrave;s letras, n&uacute;meros ou sinais<br>de pontua&ccedil;&atilde;o.</div></td><td width="80" align="center" valign="middle">background<br><input type=text size=7 value="#" name="bgcol"></td><td width="80" align="center" valign="middle">element 1<br><input type=text size=7 value="#" name="elem1"></td><td width="80" align="center" valign="middle">element 2<br><input type=text size=7 value="#" name="elem2"></td><td width="80" align="center" valign="middle">element 3<br><input type=text size=7 value="#" name="elem3"></td><td width="80" align="center" valign="middle">textcolor<br><input type=text size=7 value="#" name="text"></td></tr><tr><td height="100" colspan="5" align="center" valign="middle"><a href="#" onClick="return colorchange()"><IMG SRC="4fig\f3464.gif" WIDTH="37" HEIGHT="25" ALT="[4kB]" BORDER="0"></a></td></tr><tr><td align="left" valign="middle">| <A HREF="..\index.html" title="HOME Markus Steiger" class="nav"><B>home</B></A> | <A HREF="javascript:history.back();" title="P&aacute;gina anterior - vorherige Seite" class="nav">back</A> | <a href="#" onClick="toggleVisibility(_explica_,_show_,_visible_,_visible_)" class="nav">Como funciona?</a> |</TD><TD class="norm9" colspan="6" ALIGN="LEFT" VALIGN="MIDDLE">&copy;&nbsp; Markus Steiger - informa&ccedil;&atilde;o & comunica&ccedil;&atilde;o - S&atilde;o Paulo, Brasil</td></tr></form></table></div></center>
+
+<div id="explica" style="position:absolute; padding:15px; left:0px; top:0px; visibility:hidden; background-color: #ffffff; layer-background-color: #ffffff; border: 1px solid #dedede; height: 202px; width: 602px; z-index:5;"><SPAN class="norm11"><b>C&oacute;digo Hexadecimal</b> (# + 6 caracteres) para defini&ccedil;&atilde;o de cores na Web<p>
+<ol><li>Mude o c&oacute;digo de qualquer um dos campos.</li><li>Clique no bot&atilde;o (s&iacute;mbolo olho)</li></ol><p>Voc&ecirc; pode usar<ul><li>n&uacute;meros de 0 a 9 (0 = mais escuro)</li><li>letras de A a F (A = mais escuro)</li></ul>Se for poss&iacute;vel, use a paleta de 256 cores protegidas para navegadores,
+formadas sempre por varia&ccedil;&otilde;es de 00, 33, 66, 99, CC e FF. &nbsp; &nbsp; &nbsp;| <a href="#" onClick="toggleVisibility(_explica_,_hidden_,_hidden_,_hidden_)" class="nav">Fechar Janela de informa&ccedil;&otilde;es</a> |</SPAN></div>
+
+</body></html>

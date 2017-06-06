@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00212</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso2.css" rel=stylesheet title="infopro" type="text/css">
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = "c";
+ans[2] = "b";
+ans[3] = "a";
+ans[4] = "b";
+ans[5] = "a";
+ans[6] = "c";
+ans[7] = "b";
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+alert("Falsch! - Errado!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+alert("Richtig! - Certo!\n\nIhre Punkte - Seus Pontos: " + score);
+}
+else {
+alert("Diese Frage haben Sie schon beantwortet!\nVoce ja respondeu a esta pergunta!");
+      }
+   }
+}
+
+function NextLevel () {
+if (score > 7) {
+alert("!");
+}
+if (score >= 4 && score <= 7) {
+alert("Gut! Jetzt kommt Teil II!\nBom! Agora vem a parte II.")
+self.location="149890.html"
+
+}
+else {
+alert("Sie muessen 5 Fragen richtig beantworten um weiterzufahren.\nPrecisa de 5 respostas certas para continuar!")
+   }
+}
+// End -->
+</SCRIPT>
+
+</HEAD><BODY>
+
+<!-- navbar --><TABLE class="norm11" WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#9C3131" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="weiss">id: 00212</SPAN></TD><TD BGCOLOR="#000000" WIDTH="150" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="weiss">Aufgabe in Schritten</SPAN></TD><TD BGCOLOR="#CCCCCC" WIDTH="110" ALIGN="CENTER" VALIGN="MIDDLE"><B>Teil I</B> von III</TD><TD BGCOLOR="#FFFFFF" WIDTH="120" ALIGN="CENTER" VALIGN="MIDDLE"><A HREF="../../..\form\932313.html" TARGET="Frage" title="Pergunte o Professor">| <IMG SRC="..\9fig\prof.gif" WIDTH="8" HEIGHT="10" BORDER="0"></A> <A HREF="..\95\567804.html" title="Ajuda: Como funciona?">| <IMG SRC="..\9fig\hilfe.gif" WIDTH="11" HEIGHT="9" BORDER="0"></A> <A HREF="pdf\id_00212.pdf" title="Download do teste completo em formato pdf (89kB) para impress&atilde;o">| <IMG SRC="..\9fig\disc.gif" WIDTH="12" HEIGHT="10" BORDER="0"> |</A></TD><TD ALIGN="RIGHT" VALIGN="MIDDLE"><A HREF="javascript:history.back();" title="voltar">| zur&uuml;ck |</A></TD></TR></TABLE><!-- navbar end -->
+
+<!-- titel --><TABLE class="norm11r" WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0">
+<TR><TD WIDTH="320" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD><TD ROWSPAN="2" ALIGN="RIGHT" VALIGN="BOTTOM"><H2>Pronomen</H2></TD></TR><TR><TD WIDTH="320" ALIGN="LEFT" VALIGN="MIDDLE">1. W&auml;hlen Sie das passende Possessivpronomen!<BR>Mit 5 richtigen Antworten kommen Sie zu Teil II.</TD></TR></TABLE><!-- titel end -->
+
+
+<TABLE class="norm12" WIDTH="580" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="35" BORDER="0"><TR><TD ALIGN="LEFT" VALIGN="TOP">
+
+<SPAN class="ti03"><B>Das Fest</B></SPAN><BR>
+
+<FORM>
+1) &nbsp; Hallo Herbert, kommst du zu [...] Fest?<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(1, this.value)">unser
+<input type=radio value="b" onClick="Engine(1, this.value)">unsere
+<input type=radio value="c" onClick="Engine(1, this.value)">unserem<P>
+
+2) &nbsp; Ja, ich komme mit [...] Freundin.<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(2, this.value)">mein
+<input type=radio value="b" onClick="Engine(2, this.value)">meiner
+<input type=radio value="c" onClick="Engine(2, this.value)">meine<P>
+
+3) &nbsp; Es findet in [...] Schule statt.<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(3, this.value)">unserer
+<input type=radio value="b" onClick="Engine(3, this.value)">unsere
+<input type=radio value="c" onClick="Engine(3, this.value)">unser<P>
+
+4) &nbsp; Ist das nahe bei [...] Wohnung?<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(4, this.value)">deine
+<input type=radio value="b" onClick="Engine(4, this.value)">deiner
+<input type=radio value="b" onClick="Engine(4, this.value)">deinem<P>
+
+5) &nbsp; Nein, aber nicht weit von [...] Institut.<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(5, this.value)">unserem
+<input type=radio value="b" onClick="Engine(5, this.value)">unsere
+<input type=radio value="c" onClick="Engine(5, this.value)">unser<P>
+
+6) &nbsp; Super! Dann kommen sicher viele Freunde direkt von [...] Kurs ...<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(6, this.value)">ihre
+<input type=radio value="b" onClick="Engine(6, this.value)">ihrer
+<input type=radio value="c" onClick="Engine(6, this.value)">ihrem<P>
+
+7) &nbsp; ... zu [...] Fest!<BR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type=radio value="a" onClick="Engine(7, this.value)">eure
+<input type=radio value="b" onClick="Engine(7, this.value)">eurem
+<input type=radio value="c" onClick="Engine(7, this.value)">eures<BR>
+</FORM>
+
+</TD></TR></TABLE>
+
+<FORM name="total"><TABLE class="norm11r" WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="BOTTOM">2. Klicken Sie:&nbsp;&nbsp;<input type=button onClick="NextLevel()" value=" Weiter zu Teil II "></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><A HREF="javascript:location.reload()" title="Tentar de novo">| noch einmal |</A></TD></TR></TABLE></FORM>
+
+<!-- footer -->&nbsp;<P><SPAN class="grau9"><A HREF="../..\index.html" TITLE="Home">| id : hypertext |</A> &nbsp; &nbsp; &copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><P>&nbsp;<!-- footer end -->
+
+</BODY>
+</HTML>

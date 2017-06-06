@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE>id: 00468</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"><LINK HREF="..\curso.css" rel=stylesheet title="infopro" type="text/css">
+
+<script language="JavaScript">
+<!-- Hide the script from old browsers --
+// Original scripting by: Doug Popeney (dpopeney@oboe.aix.calpoly.edu)
+// Modified to correctly redraw the form after a second 
+// or subsequent try by: Simon Rak ©1997 (sirak@acad.ursinus.edu)
+// New content: Markus Steiger ©1999 (steiger@u-netsys.com.br)
+
+
+
+
+function quiz(form) {
+var i = 0
+var result1=document.form1.answer1.value
+var result2=document.form1.answer2.value
+var result3=document.form1.answer3.value
+var result4=document.form1.answer4.value
+var result5=document.form1.answer5.value
+var result6=document.form1.answer6.value
+var result7=document.form1.answer7.value
+var result8=document.form1.answer8.value
+    
+if (result1==''){ alert("a) ?");}
+if (result2==''){ alert("a) ?");}
+if (result3==''){ alert("b) ?");}
+if (result4==''){ alert("b) ?");}
+if (result5==''){ alert("c) ?");}
+if (result6==''){ alert("c) ?");}
+if (result7==''){ alert("d) ?");}
+if (result8==''){ alert("d) ?");}
+
+
+else {
+	if (result1=='ben'){i++}
+ if (result2=='en'){i++}
+ if (result3=='en'){i++}
+ if (result4=='ben'){i++}	
+ if (result5=='t'){i++}	
+ if (result6=='e'){i++}	
+ if (result7=='st'){i++}	
+ if (result8=='e'){i++}
+				
+	document.total.score.value = i
+
+if (result1=='ben') document.form1.check1.checked = "yes"; else document.form1.check1.checked = false;
+if (result2=='en') document.form1.check2.checked = "yes"; else document.form1.check2.checked = false;
+if (result3=='en') document.form1.check3.checked = "yes"; else document.form1.check3.checked = false;
+if (result4=='ben') document.form1.check4.checked = "yes"; else document.form1.check4.checked = false;
+if (result5=='t') document.form1.check5.checked = "yes"; else document.form1.check5.checked = false;
+if (result6=='e') document.form1.check6.checked = "yes"; else document.form1.check6.checked = false;
+if (result7=='st') document.form1.check7.checked = "yes"; else document.form1.check7.checked = false;
+if (result8=='e') document.form1.check8.checked = "yes"; else document.form1.check8.checked = false;
+							
+	}
+}
+//-->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000066" ALINK="#FF0000">
+
+<!-- homebar --><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="4" BORDER="0"><TR><TD BGCOLOR="#000000" WIDTH="80" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinw">&nbsp;&Uuml;bung</SPAN></TD><TD BGCOLOR="#FF9C9C" WIDTH="80" ALIGN="CENTER" VALIGN="MIDDLE"><SPAN class="klein">id: 00468</SPAN></TD><TD WIDTH="100" ALIGN="LEFT" VALIGN="MIDDLE">&nbsp;</TD> <TD WIDTH="320" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"> | <A HREF="javascript:history.back();" title="zur&uuml;ck - voltar - back" class="grau">&laquo; zur&uuml;ck</A> |</SPAN></TD></TR>
+<TR><TD WIDTH="260" COLSPAN="3" ALIGN="LEFT" VALIGN="BOTTOM"><BR><SPAN class="kleinr">1. Erg&auml;nzen Sie die Endungen:</SPAN></TD><TD WIDTH="320" ALIGN="RIGHT" VALIGN="BOTTOM"><BR><SPAN class="titel">haben; ein-</SPAN></TD></TR></TABLE><!-- homebar end -->
+
+<TABLE WIDTH="100%" BGCOLOR="#EFEFEF" CELLSPACING="0" CELLPADDING="25" BORDER="0"><TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+
+<form name="form1"><SPAN class="gross">
+
+a) &nbsp; Ha<INPUT TYPE="text" name="answer1" VALUE="" SIZE="4"> Sie noch ein<INPUT TYPE="text" name="answer2" VALUE="" SIZE="2"> <a href="../../..\data904\008\59.html" class="vok" title="traduzir ...">Wunsch</A>?
+<input type="checkbox" name="check1"><input type="checkbox" name="check2"><BR><BR>
+
+b) &nbsp; Peter, m&ouml;chtest du ein<INPUT TYPE="text" name="answer3" VALUE="" SIZE="2"> neuen Wagen ha<INPUT TYPE="text" name="answer4"  VALUE="" SIZE="4"> ?
+<input type="checkbox" name="check3"><input type="checkbox" name="check4"><BR><BR>
+
+c) &nbsp; Ha<INPUT TYPE="text" name="answer5"  VALUE="" SIZE="4"> er ein<INPUT TYPE="text" name="answer6" VALUE="" SIZE="2"> Freundin?
+<input type="checkbox" name="check5"><input type="checkbox" name="check6"><BR><BR>
+
+d) &nbsp; Kurt sagt zu Maria: "Ha<INPUT TYPE="text" name="answer7"  VALUE="" SIZE="4"> du ein<INPUT TYPE="text" name="answer8" VALUE="" SIZE="2"> Antwort?
+<input type="checkbox" name="check7"><input type="checkbox" name="check8">
+
+</SPAN></form></TD></TR></TABLE>
+
+<form name="total"><TABLE WIDTH="580" CELLSPACING="0" CELLPADDING="0" BORDER="0"><TR><TD WIDTH="280" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="kleinr">2. Klicken Sie:</SPAN>&nbsp;&nbsp;<input type="button" value=" kontrollieren " onclick="quiz()"></TD><TD WIDTH="300" ALIGN="RIGHT" VALIGN="MIDDLE"><SPAN class="kleinh"><input type="text" size="2" name="score"> richtig&nbsp;&nbsp; &nbsp; | <A HREF="javascript:location.reload()" class="grau">noch einmal</A> | <A HREF="321560.html" class="grau">L&ouml;sung</A> | </SPAN></TD></TR></TABLE><BR><BR><BR></form>
+
+<!-- footer --><SPAN class="kleinh">&copy;&nbsp; Markus Steiger - S&atilde;o Paulo, Brazil - All rights reserved.</SPAN><!-- footer end -->
+
+</BODY>
+</HTML>
